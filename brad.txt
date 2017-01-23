@@ -1,0 +1,1 @@
+My name is Brad an dI am awesomely editing a new file I just created in terminal with an editor called Nano. My wonderful babycakes is going to help me save and push this file to my git repo
