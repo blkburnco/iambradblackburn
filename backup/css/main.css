@@ -1,0 +1,565 @@
+@charset utf-8;
+
+/* CSS Document */
+/*
+Theme Name: Start.
+Description: Full Screen Responsive Coming Soon Page.
+Version: 1.0
+Author: siyamak45
+Website: http://creativepixel.ir
+Credits: Design, Coding and Development by Siyamak Shahpasand.
+*/
+
+
+/* ===================================*/
+/* TABLE OF CONTENTS: */
+/* ===================================*/
+/* 01 - LAYOUT & PRELOAD INITIALIZATION */
+/* 02 - COUNTDOWN TIMER STYLES */
+/* 03 - CONTACT INFO STYLES */
+/* 04 - CONTACT FORM STYLES */
+/* 05 - NAVIGATION STYLES */
+/* 06 - SOCIAL ICONS STYLES */
+/* 07 - COMMON ELEMENTS & STYLES */
+/* 08 - RESPONSIVE RULES */
+
+
+/* ===================================*/
+/* CONTENTS: */
+/* ===================================*/
+
+
+/* 01 - LAYOUT & PRELOAD INITIALIZATION */
+body {
+    font-family: 'Lato', sans-serif;
+    list-style: none;
+}
+a,i,address{
+	text-decoration: none;
+	font-style:normal;
+}
+.wrapper {
+    margin: 0 auto;
+    position: relative;
+}
+.slide.center {
+    text-align: center;
+}
+div.preloader {
+	position:fixed;
+	z-index:999;
+	background: #FFF url(../images/preloader.gif) no-repeat center center;
+	width:100%;
+	height:100%;
+}
+
+/* 02 - COUNTDOWN TIMER STYLES */
+#countdown_dashboard {
+    color: #FFF;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    z-index: 10;
+}
+#countdown_dashboard .row p {
+    padding: 0 40px;
+    margin-bottom: 40px;
+}
+
+.dash {
+    padding: 10px;
+    height: 50px;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+}
+.dash-container {
+    padding: 24px 0 0;
+    color: #6ebfa3;
+}
+.dash .digit {
+    font-size: 36px;
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+    line-height: 36px;
+    letter-spacing: -2px;
+    font-weight: 300;
+}
+.dash_title {
+    clear: both;
+    display: block;
+    font-size: 9px;
+    font-weight: 400;
+}
+
+/* 03 - CONTACT INFO STYLES */
+ul.contactinfo {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display:inline;
+}
+ul.contactinfo li{
+	margin: 17.5px 0;
+}
+ul.contactinfo i{
+	margin-right:5px;
+}
+
+/* 04 - CONTACT FORM STYLES */
+input {
+	border:0;
+	background:none;
+	outline:none;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box; 
+}
+textarea {
+	background:none;
+	border:0;
+	overflow:auto;
+	outline:none;
+	resize:none;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box; 
+}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea,
+select { 
+	border: 1px solid #c2bfac;
+	padding: 15px;
+	outline: none;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #777;
+	margin: 0;
+	width: 100%;
+	max-width: 100%;
+	display: block;
+	margin-bottom: 10px;
+	background: #fff;
+	border-radius:5px;
+}
+select { padding: 0; }
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+	border: 1px solid #aaa;
+	color: #444;
+	-moz-box-shadow: 0 0 3px rgba(0,0,0,.2);
+	-webkit-box-shadow: 0 0 3px rgba(0,0,0,.2);
+	box-shadow:  0 0 3px rgba(0,0,0,.2);
+}
+label,
+legend {
+	display: block;
+	font-weight: bold;
+}
+input[type="checkbox"] {
+		display: inline;
+	}
+
+textarea:-moz-placeholder,
+input[type="text"]:-moz-placeholder,
+input[type="email"]:-moz-placeholder,
+input[type="password"]:-moz-placeholder{
+   color:black;
+ }
+
+textarea:-moz-placeholder, 
+input[type="text"]::-webkit-input-placeholder,
+input[type="email"]::-webkit-input-placeholder,
+input[type="password"]::-webkit-input-placeholder{
+   color:black;
+ }
+#contact-form button[type="submit"] {
+    cursor: pointer;
+    width: 250px;
+    ;
+	height: 50px;
+    background: #FF0400;
+    border: none;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+/* 05 - NAVIGATION STYLES */
+.nav{
+	position: absolute;
+	top: 50%;
+	z-index: 1;
+	margin-top: -51px;
+	width: 100%;
+	height: 102px;
+	}
+.menu-btn.right{
+	right:0;
+}
+.menu-btn.left{
+	left:0;
+}
+.menu-btn  h3{
+	display: table-cell;
+	vertical-align: middle;
+	white-space: nowrap;
+	letter-spacing: 1px;
+	font-size: 14px;
+}
+.menu-btn{
+	position:absolute;
+	display: table;
+	text-transform: uppercase;
+	cursor: pointer;
+	color:#FFF;
+	text-align:left;
+	outline: none;
+	z-index: 1000;
+	margin: 20px;
+	padding: 0 25px;
+	height: 62px;
+	border-radius: 40px;
+	background:rgba(46, 61, 71, 0.7);;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.menu-btn:hover{
+	background:#FFF;
+	color:black;
+}
+.menu-btn.close{
+	position:relative;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+/* 06 - SOCIAL ICONS STYLES */
+.social-links {
+	margin: 10px auto;
+	display: inline-block;
+	text-align: center;
+	padding: 0;
+}
+.social-links li {
+	float: left;
+	margin-left: 9px;
+	border: 0;
+	background:transparent;
+	color: transparent;
+	text-shadow: none;
+	font: 0/0 a;
+}
+.social-links li:first-child {
+	margin-left: 0;
+}
+.social-links li a {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	background: url(../images/soc-icons.png) 0 0 no-repeat;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	vertical-align: top;
+	-webkit-transition: all 0.15s ease-out;
+	-moz-transition: all 0.15s ease-out;
+	transition: all 0.15s ease-out;
+}
+/* Behance */
+.social-links .ico-behance a { background-position: 0 0;}
+.social-links .ico-behance a:hover { background-position: 0 -24px; }
+/* Blogger */
+.social-links .ico-blogger a { background-position: -24px 0;}
+.social-links .ico-blogger a:hover {background-position: -24px -24px;}
+/* Deviantart */
+.social-links .ico-deviantart a {background-position: -48px 0;}
+.social-links .ico-deviantart a:hover {background-position: -48px -24px;}
+/* Digg */
+.social-links .ico-digg a {background-position: -72px 0;}
+.social-links .ico-digg a:hover {background-position: -72px -24px;}
+/* Dribbble */
+.social-links .ico-dribbble a {background-position: -96px 0;}
+.social-links .ico-dribbble a:hover {background-position: -96px -24px;}
+/* Email */
+.social-links .ico-email a {background-position: -120px 0;}
+.social-links .ico-email a:hover {background-position: -120px -24px;}
+/* Facebook */
+.social-links .ico-facebook a {background-position: -144px 0;}
+.social-links .ico-facebook a:hover {background-position: -144px -24px;}
+/* Flickr */
+.social-links .ico-flickr a {background-position: -168px 0;}
+.social-links .ico-flickr a:hover {background-position: -168px -24px;}
+/* Forrst */
+.social-links .ico-forrst a {background-position: -192px 0;}
+.social-links .ico-forrst a:hover {background-position: -192px -24px;}
+/* Google+ */
+.social-links .ico-googleplus a {background-position: -216px 0;}
+.social-links .ico-googleplus a:hover {background-position: -216px -24px;}
+/* Instagram */
+.social-links .ico-instagram a {background-position: -240px 0;}
+.social-links .ico-instagram a:hover {background-position: -240px -24px;}
+/* LastFM */
+.social-links .ico-lastfm a {background-position: -264px 0;}
+.social-links .ico-lastfm a:hover {background-position: -264px -24px;}
+/* Linkedin */
+.social-links .ico-linkedin a {background-position: -288px 0;}
+.social-links .ico-linkedin a:hover {background-position: -288px -24px;}
+/* LiveJournal */
+.social-links .ico-livejournal a {background-position: -312px 0;}
+.social-links .ico-livejournal a:hover {background-position: -312px -24px;}
+/* Myspace */
+.social-links .ico-myspace a {background-position: -336px 0;}
+.social-links .ico-myspace a:hover {background-position: -336px -24px;}
+/* Orkut */
+.social-links .ico-orkut a {background-position: -360px 0;}
+.social-links .ico-orkut a:hover {background-position: -360px -24px;}
+/* Paypal */
+.social-links .ico-paypal a {background-position: -384px 0;}
+.social-links .ico-paypal a:hover {background-position: -384px -24px;}
+/* Picasa */
+.social-links .ico-picasa a {background-position: -408px 0;}
+.social-links .ico-picasa a:hover {background-position: -408px -24px;}
+/* Pinterest */
+.social-links .ico-pinterest a {background-position: -432px 0;}
+.social-links .ico-pinterest a:hover {background-position: -432px -24px;}
+/* Reddit */
+.social-links .ico-reddit a {background-position: -456px 0;}
+.social-links .ico-reddit a:hover {background-position: -456px -24px;}
+/* RSS */
+.social-links .ico-rss a {background-position: -480px 0;}
+.social-links .ico-rss a:hover {background-position: -480px -24px;}
+/* ShareThis */
+.social-links .ico-sharethis a {background-position: -504px 0;}
+.social-links .ico-sharethis a:hover {background-position: -504px -24px;}
+/* Skype */
+.social-links .ico-skype a {background-position: -528px 0;}
+.social-links .ico-skype a:hover {background-position: -528px -24px;}
+/* Soundcloud */
+.social-links .ico-soundcloud a {background-position: -552px 0;}
+.social-links .ico-soundcloud a:hover {background-position: -552px -24px;}
+/* Spotify */
+.social-links .ico-spotify a {background-position: -576px 0;}
+.social-links .ico-spotify a:hover {background-position: -576px -24px;}
+/* StumbleUpon */
+.social-links .ico-stumbleupon a {background-position: -600px 0;}
+.social-links .ico-stumbleupon a:hover {background-position: -600px -24px;}
+/* Tumblr */
+.social-links .ico-tumblr a {background-position: -624px 0;}
+.social-links .ico-tumblr a:hover {background-position: -624px -24px;}
+/* Twitter */
+.social-links .ico-twitter a {background-position: -648px 0;}
+.social-links .ico-twitter a:hover {background-position: -648px -24px;}
+/* Vimeo */
+.social-links .ico-vimeo a {background-position: -672px 0;}
+.social-links .ico-vimeo a:hover {background-position: -672px -24px;}
+/* WordPress */
+.social-links .ico-wordpress a {background-position: -696px 0;}
+.social-links .ico-wordpress a:hover {background-position: -696px -24px;}
+/* WordPress */
+.social-links .ico-youtube a {background-position: -720px 0;}
+.social-links .ico-youtube a:hover {background-position: -720px -24px;}
+
+/* 07 - COMMON ELEMENTS & STYLES */
+#bgndVideo{
+	height: 100%;
+	position: absolute;
+	width: 100%;
+	z-index: -10;
+	background: #287CAC;
+}
+
+.success {
+    background: #CFFFF5;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #B9ECCE;
+    border-radius: 5px;
+    font-weight: normal;
+    display: inline-block;
+}
+.error {
+    background: #FFDFDF;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #FFCACA;
+    border-radius: 5px;
+    font-weight: normal;
+    display: inline-block;
+}
+.box {
+	vertical-align: middle;
+	overflow: hidden;
+	display: block;
+	position: relative;
+	border-radius: 20px;
+	padding: 20px;
+}
+.box.dark {
+	background:rgba(46, 61, 71, 0.7)
+}
+.box.light {
+	background: rgba(255, 255, 255, 0.5);
+}
+a.light,h1.light,h2.light,h3.light,span.light,p.light,label.light,i.light,li.light,ul.light{
+	color: #fff;
+}
+a.dark,h1.dark,h2.dark,h3.dark,span.dark,p.dark,label.dark,i.dark,li.dark,ul.dark{
+	color: #333;
+}
+.box p{
+	line-height: 26px;
+	font-weight: 300;
+}
+.page-title {
+	margin-bottom: 20px;
+}
+.page-title-holder {
+	text-transform: uppercase;
+	text-align:center;
+}
+.page-title h1 {
+	font-size: 50px;
+	line-height: 1em;
+	margin: 0;
+	position: relative;
+}
+.page-title-holder h2 {
+	font-size: 24px;
+	font-weight: 300;
+}
+.page-title h1.light  ,.page-title h2.light {
+	text-shadow:0px 1px 7px #333;
+}
+.clockcontainer{
+	position: relative;
+	margin: 0 auto;
+	padding: 50px;
+	background:   url('../images/large-sec.png') 0 0 repeat;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+#content {
+	margin:0 auto;
+	width: 460px;
+	height: 460px;
+	display: table;
+	color: #FFF;  
+	position: relative;
+}
+#content:before{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	border-radius: 50%;
+	background: rgba(49, 49, 49, 0.85) url('../images/small-sec.png') 0 0 repeat;
+	-webkit-animation: rotating 60s linear infinite;
+	animation: rotating 60s linear infinite;
+	background-position: center center;
+	background-size: cover;
+}
+#content .inner{
+	width:100%;
+	display:table-cell;
+	vertical-align:middle;
+}
+#content .inner h2{
+	font-weight:200;
+}
+#content .inner .headertitle,.tableCell,.slidecontainer{
+	position: relative;
+}
+#content .inner h1:after {
+	position: absolute;
+	content: "";
+	left: 50%;
+	width: 4px;
+	margin-top: -55px;
+	margin-left: -2px;
+	height: 50px;
+	background: #ef4135;
+	top: 0;
+} 
+
+@-webkit-keyframes rotating {
+    from{
+        -webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+    }
+}
+@keyframes rotating {
+    from{
+        -webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		-sand-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+		-ms-transform: rotate(360deg);
+		-sand-transform: rotate(360deg);
+    }
+}
+/* 08 - RESPONSIVE RULES */
+@media only screen and (max-width:959px){
+	.nav{
+		position: relative;
+		z-index: 1;
+		margin-top: 0;
+		top:0;
+		width: 100%;
+		height: 102px;
+	}
+	.fullPage-slidesNav{
+		display:none;
+	}
+}
+
+@media only screen and (max-width: 480px){
+	.dash,.dash .digit, .clockcontainer h1, .clockcontainer h2 {
+		font-size:12px;
+		padding:3px;
+	}
+	.clockcontainer{	
+		padding: 20px;
+	}
+	 #content{
+		width:250px;
+		height:250px;
+	}
+}
+@media only screen and (max-width:560px) and (min-width: 480px) {  
+	.dash,.dash .digit , .clockcontainer h1, .clockcontainer h2{
+		font-size:100%;
+		padding:3px;
+	}
+	.clockcontainer{	
+		padding: 30px;
+	}
+	 #content{
+		width:350px;
+		height:350px;
+	}
+} 

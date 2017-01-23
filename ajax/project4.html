@@ -1,0 +1,63 @@
+<div class="cbp-l-inline">
+  <div class="swiper-wrapper"> <a class="arrow-left" href="#"></a> <a class="arrow-right" href="#"></a>
+    <div class="swiper-container gallery">
+      <div class="swiper">
+        <div class="item">
+          <figure class="frame"><img src="style/images/art/pg2.jpg" alt="" /></figure>
+        </div>
+        <!-- /.item -->
+        <div class="item">
+          <figure class="frame"><img src="style/images/art/pg1.jpg" alt="" /></figure>
+        </div>
+        <!-- /.item -->
+        <div class="item">
+          <figure class="frame"><img src="style/images/art/pg3.jpg" alt="" /></figure>
+        </div>
+        <!-- /.item -->
+        <div class="item">
+          <figure class="frame"><img src="style/images/art/pg5.jpg" alt="" /></figure>
+        </div>
+        <!-- /.item -->
+        <div class="item">
+          <figure class="frame"><img src="style/images/art/pg4.jpg" alt="" /></figure>
+        </div>
+        <!-- /.item -->
+        <div class="item">
+          <figure class="frame"><img src="style/images/art/pg6.jpg" alt="" /></figure>
+        </div>
+        <!-- /.item -->
+        <div class="item">
+          <figure class="frame"><img src="style/images/art/pg7.jpg" alt="" /></figure>
+        </div>
+        <!-- /.item --> 
+      </div>
+      <!-- /.swiper --> 
+    </div>
+    <!-- /.swiper-container --> 
+  </div>
+  <!-- /.swiper-wrapper --> 
+</div>
+<!-- INSERT PAGE SCRIPTS HERE --> 
+<script type="text/javascript">
+	$('.swiper-container.gallery').each(function(){
+		  $(this).swiper({
+		    grabCursor: true,
+		    slidesPerView: 'auto',
+		    wrapperClass: 'swiper',
+		    slideClass: 'item',
+		    offsetPxBefore: 0,
+		    offsetPxAfter: 0
+		  });
+		
+		  var $swipers = $(this);
+		
+		$swipers.siblings('.arrow-left').on( "click", function(){
+		$swipers.data('swiper').swipeTo($swipers.data('swiper').activeIndex-1);
+		return false;
+		});
+		$swipers.siblings('.arrow-right').on( "click", function(){
+		$swipers.data('swiper').swipeTo($swipers.data('swiper').activeIndex+1);
+		return false;
+		});
+	});
+</script>

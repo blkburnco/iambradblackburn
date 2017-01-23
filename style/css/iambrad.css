@@ -1,0 +1,109 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*.navbar-header{background:#322e2a;}*/
+
+.h580x380{background-color:yellow; background-size: cover !important; background-position: center center !important; width:590px !important; height:380px !important; margin:0px !important; padding:0px !important;}
+.h280x380{background-color:red; background-size: cover !important; background-position: center center !important; width:300px !important; height:380px !important; margin:0px !important; padding:0px !important;}
+.h280x190{background-color:cyan; background-size: cover !important; background-position: center center !important; width:300px !important; height:190px !important; margin:0px !important; padding:0px !important;}
+
+#p01-optimus{background: url(../../data/thumbnails_a/01.jpg) no-repeat 0 0;}
+#p02-fitpulse{background: url(../../data/thumbnails_a/02.jpg) no-repeat 0 0;}
+#03-billingsley{background: url(../../data/thumbnails_a/03.jpg) no-repeat 0 0;}
+#04-church1{background: url(../../data/thumbnails_a/04.jpg) no-repeat 0 0;}
+#p05-foxxhole{background: url(../../data/thumbnails_a/05.jpg) no-repeat 0 0;}
+#06-faces{background: url(../../data/thumbnails_a/06.jpg) no-repeat 0 0;}
+#07-tamu{background: url(../../data/thumbnails_a/07.jpg) no-repeat 0 0;}
+#08-reagan{background: url(../../data/thumbnails_a/08.jpg) no-repeat 0 0;}
+#09-iran{background: url(../../data/thumbnails_a/09.jpg) no-repeat 0 0;}
+#p10-truefriend{background: url(../../data/thumbnails_a/10.jpg) no-repeat 0 0;}
+#11-spending{background: url(../../data/thumbnails_a/11.jpg) no-repeat 0 0;}
+#12-summernights{background: url(../../data/thumbnails_a/12.jpg) no-repeat 0 0;}
+#p13-innovationfactory{background: url(../../data/thumbnails_a/13.jpg) no-repeat 0 0;}
+#14-powerpurse{background: url(../../data/thumbnails_a/14.jpg) no-repeat 0 0;}
+#15-plugin{background: url(../../data/thumbnails_a/15.jpg) no-repeat 0 0;}
+#p16-workingdead{background: url(../../data/thumbnails_a/16.jpg) no-repeat 0 0;}
+#17-freedomfirst{background: url(../../data/thumbnails_a/17.jpg) no-repeat 0 0;}
+#18-somba{background: url(../../data/thumbnails_a/18.jpg) no-repeat 0 0;}
+#19-imingle{background: url(../../data/thumbnails_a/19.jpg) no-repeat 0 0;}
+#20-dodgecall{background: url(../../data/thumbnails_a/20.jpg) no-repeat 0 0;}
+#p21-plant{background: url(../../data/thumbnails_a/21.jpg) no-repeat 0 0;}
+#p22-williamsstadium{background: url(../../data/thumbnails_a/22.jpg) no-repeat 0 0;}
+#23-poorsolutions{background: url(../../data/thumbnails_a/23.jpg) no-repeat 0 0;}
+#24-gridsmart{background: url(../../data/thumbnails_a/24.jpg) no-repeat 0 0;}
+#25-freedrink{background: url(../../data/thumbnails_a/25.jpg) no-repeat 0 0;}
+#p26-wardrugs{background: url(../../data/thumbnails_a/26.jpg) no-repeat 0 0;}
+#27-hungergames{background: url(../../data/thumbnails_a/27.jpg) no-repeat 0 0;}
+#28-dudeusave{background: url(../../data/thumbnails_a/28.jpg) no-repeat 0 0;}
+#29-endangeredspecies{background: url(../../data/thumbnails_a/29.jpg) no-repeat 0 0;}
+#p30-forothers{background: url(../../data/thumbnails_a/30.jpg) no-repeat 0 0;}
+#31-gashound{background: url(../../data/thumbnails_a/31.jpg) no-repeat 0 0;}
+#32-gigaom{background: url(../../data/thumbnails_a/32.jpg) no-repeat 0 0;}
+#33-greatexperiment{background: url(../../data/thumbnails_a/33.jpg) no-repeat 0 0;}
+#34-ipal{background: url(../../data/thumbnails_a/34.jpg) no-repeat 0 0;}
+#35-killgood{background: url(../../data/thumbnails_a/35.jpg) no-repeat 0 0;}
+#36-lca{background: url(../../data/thumbnails_a/36.jpg) no-repeat 0 0;}
+#37-kyercoms{background: url(../../data/thumbnails_a/37.jpg) no-repeat 0 0;}
+#38-leesburg{background: url(../../data/thumbnails_a/38.jpg) no-repeat 0 0;}
+#39-whiteline{background: url(../../data/thumbnails_a/39.jpg) no-repeat 0 0;}
+#p40-plugitin{background: url(../../data/thumbnails_a/40.jpg) no-repeat 0 0;}
+#41-psc{background: url(../../data/thumbnails_a/41.jpg) no-repeat 0 0;}
+#42-rashad{background: url(../../data/thumbnails_a/42.jpg) no-repeat 0 0;}
+#43-samrhoher{background: url(../../data/thumbnails_a/43.jpg) no-repeat 0 0;}
+#44-schoolchoice{background: url(../../data/thumbnails_a/44.jpg) no-repeat 0 0;}
+#45-sealdeal{background: url(../../data/thumbnails_a/45.jpg) no-repeat 0 0;}
+#46-skyplex{background: url(../../data/thumbnails_a/46.jpg) no-repeat 0 0;}
+#47-tron{background: url(../../data/thumbnails_a/47.jpg) no-repeat 0 0;}
+#48-trulife{background: url(../../data/thumbnails_a/48.jpg) no-repeat 0 0;}
+#49-watermark{background: url(../../data/thumbnails_a/49.jpg) no-repeat 0 0;}
+#50-whitneysales{background: url(../../data/thumbnails_a/50.jpg) no-repeat 0 0;}
+
+#51-jazzinvite{background: url(../../data/thumbnails_a/51.jpg) no-repeat 0 0;}
+#52-openhouse{background: url(../../data/thumbnails_a/52.jpg) no-repeat 0 0;}
+#p53-legacysociety{background: url(../../data/thumbnails_a/53.jpg) no-repeat 0 0;}
+#p54-concertseries{background: url(../../data/thumbnails_a/54.jpg) no-repeat 0 0;}
+#55-hometownhoedown{background: url(../../data/thumbnails_a/55.jpg) no-repeat 0 0;}
+#56-agelesscreativity{background: url(../../data/thumbnails_a/56.jpg) no-repeat 0 0;}
+#57-seasonofpraise{background: url(../../data/thumbnails_a/57.jpg) no-repeat 0 0;}
+#58-somethingnew{background: url(../../data/thumbnails_a/58.jpg) no-repeat 0 0;}
+#p59-spl0716{background: url(../../data/thumbnails_a/59.jpg) no-repeat 0 0;}
+#60-excel{background: url(../../data/thumbnails_a/60.jpg) no-repeat 0 0;}
+#61-communityreport{background: url(../../data/thumbnails_a/61.jpg) no-repeat 0 0;}
+#62-gala{background: url(../../data/thumbnails_a/62.jpg) no-repeat 0 0;}
+#63-waterswatch{background: url(../../data/thumbnails_a/63.jpg) no-repeat 0 0;}
+#64-golftournament{background: url(../../data/thumbnails_a/64.jpg) no-repeat 0 0;}
+#p65-legacybuilder{background: url(../../data/thumbnails_a/65.jpg) no-repeat 0 0;}
+#66-medicalbreakthroughs{background: url(../../data/thumbnails_a/66.jpg) no-repeat 0 0;}
+#67-summerconcert{background: url(../../data/thumbnails_a/67.jpg) no-repeat 0 0;}
+#68-connectlogo{background: url(../../data/thumbnails_a/68.jpg) no-repeat 0 0;}
+#69-showsbegin{background: url(../../data/thumbnails_a/69.jpg) no-repeat 0 0;}
+#70-clubhouse{background: url(../../data/thumbnails_a/70.jpg) no-repeat 0 0;}
+#p71-divein{background: url(../../data/thumbnails_a/71.jpg) no-repeat 0 0;}
+#72-mensbreakfast{background: url(../../data/thumbnails_a/72.jpg) no-repeat 0 0;}
+#73-anchorsaweigh{background: url(../../data/thumbnails_a/73.jpg) no-repeat 0 0;}
+#p74-hurricaneguide{background: url(../../data/thumbnails_a/74.jpg) no-repeat 0 0;}
+#p75-culturaladventure{background: url(../../data/thumbnails_a/75.jpg) no-repeat 0 0;}
+
+
+/*.caption p{font-size:9px; text-align:center; display:block; padding:20x; }*/
+.caption {bottom:0px; z-index:500;}
+.caption p{
+	background-color:rgba(34,31,29,0.8);
+	color: #fff;
+	/*font-weight: 600;*/
+	font-size: .8em;
+	font-style:oblique;
+	line-height: 1.2em;
+	text-align:left;
+	padding: 10px 15px 10px 15px;
+	display:block;
+	bottom:0px;
+	margin-top:-40px;
+	position:relative;
+	z-index:500;
+	/*word-break:break-all; word-wrap:break-word; overflow:visible !important;
+*/	/*opacity:0.7;*/}
+	
+.brad-dark-wrapper {
+	background: url(../../img/noise2.png) repeat !important;
+}
