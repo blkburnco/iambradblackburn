@@ -37,7 +37,7 @@
     <!-- /.navbar-header -->
     <nav class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
-      	<li class="current dropdown"><a href="#home" class="dropdown-toggle js-activated">Home <span class="caret"></span></a></li>
+      	<li class="dropdown"><a href="#home" class="dropdown-toggle js-activated">Home <span class="caret"></span></a></li>
         <li class="dropdown"><a href="#about" class="dropdown-toggle js-activated">About <span class="caret"></span></a></li>
         <li class="dropdown"><a href="#samples" class="dropdown-toggle js-activated">Samples <span class="caret"></span></a></li>
         <!--<li class="dropdown"><a href="#" class="dropdown-toggle js-activated">Portfolio <span class="caret"></span></a></li>-->
@@ -1845,6 +1845,14 @@ poster='style/video/nyc.jpg'>
 <script src="style/js/classie.js"></script> 
 <script src="style/js/jquery.themepunch.tools.min.js"></script> 
 <script src="style/js/scripts.js"></script>
+//Toggle Class for Current Link CSS -love your babycakes :*
+<script>
+$(document).ready(function(){
+    $("a").click(function(){
+        $("li").toggleClass(".current");
+    });
+});
+</script>
 
 
 
