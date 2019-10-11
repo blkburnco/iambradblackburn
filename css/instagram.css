@@ -1,0 +1,273 @@
+/*/////////////////////////////////////////////////////////////////////
+INSTAGRAM
+/////////////////////////////////////////////////////////////////////*/
+/* .items-wrapper {
+    text-align: center
+}
+.items {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.image-grid .item {
+    float: left
+}
+.image-grid.col5 .item {
+    margin-bottom: 10px;
+    width: 20%;
+    padding-right: 10px;
+}
+.image-grid.col3 .items-wrapper{
+    margin-bottom: -20px;
+    margin-right: -20px;
+}
+.image-grid.col3 .item {
+    margin-bottom: 20px;
+    width: 33.33339%;
+    padding-right: 20px;
+}
+.image-grid figure {
+	margin: 0;
+}
+.widget .image-grid.col3 .items-wrapper{
+    margin-bottom: -5px;
+    margin-right: -5px;
+}
+.widget .image-grid.col3 .item {
+    margin-bottom: 5px;
+    width: 33.33339%;
+    padding-right: 5px;
+}
+.item-details {
+    padding: 0;
+    margin: 0 0 30px 0;
+    list-style: none;
+}
+.item-details li {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+.item-details li:first-child {
+    margin-top: 0px;
+    padding-top: 0px;
+    border-top: 0;
+}
+.item-details li strong {
+    font-weight: normal;
+    color: #70aed2;
+    padding-right: 3px;
+}
+
+figure {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 20px;
+}
+.grid-view figure.main,
+.carousel-boxed figure {
+	margin: 0;
+}
+.items li figure img {
+    display: block;
+    width: 100%;
+}
+figure li a,
+figure li a img {
+    display: block;
+    position: relative;
+}
+figure img {
+    display: block;
+    max-width: 100%;
+}
+.icon-overlay {
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+.icon-overlay img {
+    display: block;
+    max-width: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.icon-overlay a .icn-more {
+    opacity: 0;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    -MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    height: 100%;
+    position: absolute;
+    text-decoration: none;
+    width: 100%;
+    left: 0;
+    z-index: 100;
+    background: #222;
+    background: rgba(50,46,42,0.8);
+    overflow: hidden;
+    transition: all 0.4s;
+}
+.icon-overlay a:hover .icn-more {
+    opacity: 1;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    -MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+.icon-overlay a .icn-more:before {
+    font-family: 'budicon';
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    position: absolute;
+    text-align: center;
+    content: '\e004';
+    line-height: 1;
+    color: #FFF;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    font-size: 22px;
+    margin: -10px 0px 0px -11px;
+    transform: translate3d(0,-10px,0);
+    transition: 0.35s ease-in;
+} */
+
+
+/*/////////////////////////////////////////////////////////////////////
+INSTAGRAM
+/////////////////////////////////////////////////////////////////////*/
+
+/* remove bootstrap gutter*/
+/*.row.no-gutter {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.row.no-gutter [class*='col-']:not(:first-child),
+.row.no-gutter [class*='col-']:not(:last-child) {
+  padding-right: 0;
+  padding-left: 0;
+}*/
+
+
+/* the good stuff */
+/*body {
+}*/
+
+#instagram-gallery-feed{width: 100vw !important; display: block !important; margin-left:50% !important; transform:translateX(-50%) !important;}
+
+
+.img-featured-container {
+    overflow: hidden;
+    position: relative;
+     float: left; 
+    display: inline-block !important;
+    width:33.3%;
+    /*min-width:800px !important;*/
+    margin:0px;
+    padding: 0px;
+    border:none;
+  }
+
+
+@media (max-width: 800px) {
+    .img-featured-container {width:50%;}
+}
+
+@media (max-width: 500px) {
+    .img-featured-container {width:100%;}
+}
+
+  /*.img-featured-container{width:33.3%; height: auto; min-width:300px !important; display:inline-block !important; margin:0px !important; padding:0px !important; border:none !important;}*/
+  
+  .img-featured-container img {
+    width: 100%;
+    margin:0px !important;
+    padding: 0px !important;
+  
+  /*   padding: 10px; */
+  }
+  
+  .img-featured-container .img-backdrop {
+    /*background: linear-gradient(135deg, rgba(38, 163, 255, 0.85), rgba(83, 201, 179, 0.85));*/
+    /* background: linear-gradient(135deg, rgba(234, 158, 25, 0.85), rgba(234, 119, 24, 0.85)); */
+    background: linear-gradient(135deg, rgba(212,194,162, 0.85), rgba(147,123,93, 0.85));
+    margin:0px !important;
+    padding: 0px !important;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s ease;
+    /* float: left; */
+    display: inline-block !important;
+  }
+  
+  .img-featured-container:hover > .img-backdrop {
+    opacity: 1;
+  }
+  
+  /* center text horizontally and vertically on image hover */
+  .img-featured-container .description-container {
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.2;
+    padding: 0 30px;
+    text-align: center;
+    line-height: 20px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform-style: preserve-3d;
+    z-index: 2;
+    opacity: 0;
+    transition: all .2s ease;
+  }
+  
+  .img-featured-container .description-container .fa-instagram {
+    font-size: 40px;
+  }
+  
+  .img-featured-container .description-container p {
+    font-weight: 300;
+    margin-bottom: 0;
+  }
+  
+  .img-featured-container:hover .description-container {
+    opacity: 1;
+  }
+  
+  .img-featured-container .description-container .caption {
+    display: none;
+    /*margin-bottom: 10px;*/
+  }
+  
+  .img-featured-container .description-container .likes,
+  .img-featured-container .description-container .comments {
+    margin: 0 5px;
+  }
+  
+  /* load more button */
+  #btn-instafeed-load {
+    position: relative;
+    top:20px;
+    margin-bottom:50px !important;
+    color: #fff;
+    background:#ea9217;
+    /*background: #26a3ff;*/
+    font-size: 16px;
+    margin: 20px auto;
+    padding: 8px 40px;
+    display: block;
+    border: none;
+  }
+  
+  #btn-instafeed-load:hover {
+    background: grey;
+    transition-duration: .5s;
+  }

@@ -1,0 +1,167 @@
+@charset "UTF-8";
+/* Mousemark */
+@import url(http://fonts.googleapis.com/css?family=Lato:400,100);
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato";
+  text-align: center;
+  color: #333;
+  font-weight: normal; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+p {
+  font-size: 13px; }
+
+h1 {
+  text-align: center;
+  font-weight: 100;
+  font-size: 50px;
+  line-height: 0 !important;
+  width: 100%;
+  top: 50%;
+  position: absolute; }
+
+#mousemark {
+  opacity: 0;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  border-radius: 100px;
+  border: 1px solid #666;
+  text-align: center; }
+
+#mousemark.click {
+  animation: anim 0.5s;
+  -webkit-animation: anim 0.5s; }
+
+@keyframes anim {
+  50% {
+    width: 50px;
+    height: 50px;
+    margin-top: -25px;
+    margin-left: -25px;
+    opacity: 0.8; }
+  100% {
+    opacity: 0; } }
+@-webkit-keyframes anim {
+  50% {
+    width: 50px;
+    height: 50px;
+    margin-top: -25px;
+    margin-left: -25px;
+    opacity: 0.8; }
+  100% {
+    opacity: 0; } }
+/* IMAGE : © 2015 C2P0 Entertainment. All rights Reserved. */
+body {
+  margin: 0; }
+
+.container .scene {
+  min-width: 100%;
+  min-height: 100%;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0; }
+
+.scene {
+  min-height: 460px;
+  position: relative;
+  overflow: hidden;
+  background: grey; }
+
+ul {
+  list-style: none;
+  display: block;
+  padding: 0;
+  margin: 0; }
+
+.scene, .layer {
+  display: block;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0; }
+
+.layer {
+  position: absolute; }
+
+.nuage {
+  background: url("../img/clouds-small.png");
+  background-position: center center;
+  position: absolute;
+  width: 300%;
+  height: 300%;
+  left: -110%;
+  top: -60%; }
+
+.brooklyn {
+  background: url("http://www.zupimages.net/up/15/10/rhj0.png");
+  background-size: 155%;
+  background-position: center center;
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  left: -65%;
+  top: -30%; }
+
+.brooklyn:hover {
+  filter: sepia(1);
+  -webkit-filter: sepia(1);
+  -moz-filter: sepia(1);
+  -o-filter: sepia(1);
+  -ms-filter: sepia(1); }
+
+.secondplan {
+  /*background: url(https://api.mapbox.com/styles/v1/mapbox/satellite-v9/static/-76.883807,40.259436,13,0/640x500@2x?access_token=pk.eyJ1IjoiY2h1cmNoaWxsbWVkaWEiLCJhIjoiY2ozNHA2MDRoMDByYzJxcGxsYzR5aHk1bSJ9.-fUI0HbdpsEvSlqxptvjgQ); background-size:cover;*/
+  background: url(https://api.mapbox.com/v4/mapbox.satellite/-76.883807,40.259436,12/1280x500@2x.png?access_token=pk.eyJ1IjoiY2h1cmNoaWxsbWVkaWEiLCJhIjoiY2ozNHA2MDRoMDByYzJxcGxsYzR5aHk1bSJ9.-fUI0HbdpsEvSlqxptvjgQ);
+  background-size: cover;
+  background-position: center center;
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  left: -65%;
+  top: -30%;
+  opacity: 0.5; }
+
+.contactmap {
+  /*background: url(https://api.mapbox.com/styles/v1/mapbox/satellite-v9/static/-76.883807,40.259436,13,0/640x500@2x?access_token=pk.eyJ1IjoiY2h1cmNoaWxsbWVkaWEiLCJhIjoiY2ozNHA2MDRoMDByYzJxcGxsYzR5aHk1bSJ9.-fUI0HbdpsEvSlqxptvjgQ); background-size:cover;*/
+  /*background: url(https://api.mapbox.com/v4/mapbox.satellite/-76.883807,40.259436,11/1280x500@2x.png?access_token=pk.eyJ1IjoiY2h1cmNoaWxsbWVkaWEiLCJhIjoiY2ozNHA2MDRoMDByYzJxcGxsYzR5aHk1bSJ9.-fUI0HbdpsEvSlqxptvjgQ); background-size:cover;*/
+  background: url(../img/harrisburg-map.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: -65%;
+  top: -30%;
+  opacity: 1; }
+
+/*.firstplan {
+background: url("http://i.imgur.com/tCniACK.png") no-repeat 50% 100%;
+background: #000;
+opacity:0.5;
+background-size: cover;
+position: absolute;
+bottom: 96px;
+width: 100%;
+height: 100%;
+left: 0px;
+top: 0px;
+}*/
+h1.cap {
+  line-height: 1.4em; }
+
+h1.cap:first-letter {
+  font-size: 2.8em;
+  float: left;
+  margin-top: .35em;
+  margin-right: .1em;
+  color: white; }
+
+/*# sourceMappingURL=map-style.css.map */

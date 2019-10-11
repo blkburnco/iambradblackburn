@@ -1,0 +1,146 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+* {
+  box-sizing: border-box; }
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+.clearfix {
+  zoom: 1; }
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300; }
+
+body {
+  background: #111; }
+
+.block {
+  position: relative; }
+
+.image-holder {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  background: 50% 50% / cover no-repeat;
+  transition: opacity .4s ease-out; }
+
+.img_1 {
+  background-image: url("https://ununsplash.imgix.net/photo-1429105049372-8d928fd29ba1?fit=crop&fm=jpg&h=700&q=75&w=1050"); }
+
+.img_2 {
+  background-image: url("https://unsplash.imgix.net/reserve/nqr33LlRR66jA3Ez9mX7_fox-in-the-forest-by-jose-inesta.jpg?fit=crop&fm=jpg&h=700&q=75&w=1050"); }
+
+.img_3 {
+  background-image: url("https://unsplash.imgix.net/uploads/1412862685615b0212e3d/5fcb0a55?fit=crop&fm=jpg&h=700&q=75&w=1050"); }
+
+.img_4 {
+  background-image: url("https://unsplash.imgix.net/photo-1428591501234-1ffcb0d6871f?fit=crop&fm=jpg&h=700&q=75&w=1050"); }
+
+.img_5 {
+  background-image: url("https://ununsplash.imgix.net/photo-1422433555807-2559a27433bd?fit=crop&fm=jpg&h=700&q=75&w=1050"); }
+
+.img_6 {
+  background-image: url("https://ununsplash.imgix.net/photo-1421098518790-5a14be02b243?fit=crop&fm=jpg&h=600&q=75&w=1050"); }
+
+.img_7 {
+  background-image: url("https://ununsplash.imgix.net/photo-1422479516648-9b1f0b6e8da8?fit=crop&fm=jpg&h=725&q=75&w=1050"); }
+
+.img_8 {
+  background-image: url("https://unsplash.imgix.net/photo-1416838375725-e834a83f62b7?fit=crop&fm=jpg&h=700&q=75&w=1050"); }
+
+.window_load .image-holder {
+  opacity: 1; }
+
+.pos_fixed {
+  position: fixed;
+  top: 0;
+  left: 0; }
+
+.pos_abs_bot .image-holder {
+  position: absolute;
+  top: auto;
+  bottom: 0;
+  left: 0; }
+
+.content {
+  padding: 100px;
+  max-width: 800px; }
+
+.section {
+  min-height: 100vh; }
+
+.divider {
+  background: #242424; }
+
+.divider_1 {
+  background: coral; }
+
+.divider_2 {
+  background: darkcyan; }
+
+.divider_3 {
+  background: darkslategrey; }
+
+.divider_4 {
+  background: gold;
+  color: black; }
+
+.divider_5 {
+  background: seagreen; }
+
+.divider_6 {
+  background: olive; }
+
+.divider_7 {
+  background: orangered; }
+
+.divider_8 {
+  display: none; }
+
+.section {
+  background: rgba(0, 0, 0, 0.3); }
+
+.section:nth-child(even) .content {
+  float: right; }
+
+.section .content {
+  font-size: 20px;
+  line-height: 2;
+  text-align: center; }
+
+.section_1 .content {
+  width: 100%;
+  max-width: none;
+  font-size: 26px;
+  line-height: 2; }
+
+h1 {
+  font-weight: 300;
+  font-size: 80px; }
+
+.divider .content {
+  padding: 20px 100px;
+  min-height: 100px; }
+
+@media screen and (max-width: 800px) {
+  h1 {
+    font-size: 40px;
+    line-height: 1.5; }
+
+  .section .content {
+    font-size: 14px;
+    line-height: 1.8; } }
+
+/*# sourceMappingURL=FP.css.map */
