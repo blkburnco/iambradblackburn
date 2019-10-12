@@ -1,2 +1,46 @@
 
+
 // WELCOME
+.name, .title {
+    text-align: center;
+    color: $white;
+    margin: 0 auto;
+        margin-bottom: -5px;
+    text-shadow: 2px 2px 5px $dkgray;
+}
+
+.name {
+    font-size: 4em;
+    text-transform: capitalize;
+}
+
+.title {
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.atlanta {
+	background: url('https://iambradblackburn.com/img/billboards/atl-pano.jpg');
+    width: 100%;
+    max-width: 1100px;
+    //height: auto;
+    height: 54vh;
+    transition: background-size .5s ease-out;
+    -moz-transition: background-size .5s ease-out;
+    -ms-transition: background-size .5s ease-out;
+    -o-transition: background-size .5s ease-out;
+    -webkit-transition: background-size .5s ease-out;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    filter: grayscale(0.3);
+    cursor: pointer;
+    margin: 0 auto;
+    border: 25px double $white;
+    background-clip: padding-box;
+}
+
+.atlanta:hover {
+    background-size: 110% 110%;
+    //background-position: center;
+    filter: grayscale(0.2);
+}
