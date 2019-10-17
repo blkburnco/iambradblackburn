@@ -10,7 +10,7 @@
     </div>
 </template>
 <script>
-    import { store, mutations } from './store/store.js'
+    import { store, mutations } from '@/store.js'
 
     export default {
         methods: {
