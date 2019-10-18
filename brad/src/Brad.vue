@@ -1,19 +1,18 @@
 <template>
   <div id="app">
     <nav class="main-nav">
-      <a href="#home"><img class="logo" src="@/assets/logo/B-Monogram.png" alt="Brad Blackburn" /></a>
+      <router-link to="/"><img class="logo" src="@/assets/logo/B-Monogram.png" alt="Brad Blackburn" /></router-link>
       <Burger></Burger>
     </nav>
     <Sidebar>
         <ul class="sidebar-panel-nav">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
+        <li><router-link to="/">Home</router-link></li>
+        <li><router-link to="/about">About</router-link></li>
         <li><a href="#contact">Contact</a></li>
         </ul>
     </Sidebar>
-    <div class="lead">
-      <h1 class="name">Brad Blackburn</h1>
-      <h2 class="title"> Creative Leader | Graphic Artist | Animator</h2>
+    <div class="panels">
+      <router-view></router-view>
     </div>
   </div>
 </template>

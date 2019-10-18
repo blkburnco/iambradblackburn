@@ -1,14 +1,14 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Welcome from '../views/Welcome.vue'
+import Home from '../views/Home.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    name: 'welcome',
-    component: Welcome
+    name: 'home',
+    component: Home
   },
   {
     path: '/about',
@@ -23,5 +23,9 @@ const routes = [
 const router = new VueRouter({
   routes
 })
+
+const app = new Vue({
+  router
+}).$mount('#app')
 
 export default router
