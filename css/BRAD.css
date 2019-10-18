@@ -159,6 +159,8 @@ section{background-color:black !important;}
 
 .fullView{width: 100vw !important; height:800px; overflow:visible; display:block;}
 .center-col{max-width:50%;}
+.narrow-col{}
+.narrow-col p{color: #dedede; font-family: 'Raleway'; font-weight:bolder; font-size: 1.8em; line-height: 2em; text-align: justify; border: solid white thin; border-left:1px; border-right: 1px; padding:2em;}
 
 .cursive{font-family: 'Crimson Text'; font-style: italic; font-weight: bold;}
 

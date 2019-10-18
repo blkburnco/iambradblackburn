@@ -157,6 +157,10 @@ TABLET-PORTRAIT-UP
   .center-col {
     max-width: 100% !important;
   }
+  .narrow-col p {
+    font-size: 1.2em;
+    line-height: 2em;
+  }
   .slider-title-container {
     max-width: 50vw !important;
     top: 35vh;
