@@ -137,11 +137,16 @@ section{background-color:black !important;}
 .txt-crimson{font-family: Crimson Text; font-style: italic; font-size: 3em;}
 
 .txt-arca{font-family:'Arca';}
+.txt-arca li{font-family:'Arca';}
 .txt-avenir{font-family:'Avenir';}
 
-.logo{position:absolute; left:50%; transform: translateX(-50%);}
+/*For Logo settings see core.min.css line 9386*/
+.logo{position:absolute; left:50%; transform: translateX(-50%); display:block;}
+.logo-resize{left:50%!important; overflow:visible!important;}
+.logo-resize img{height:50px!important; width:50px!important; transform:translateX(-50%);}
+
 .temperature{font-family: 'Montserrat' !important; font-weight:900 !important; font-size: 100px; text-transform: uppercase; letter-spacing: -.03em; line-height: 1.5em; padding-top:.5em;}
-.sidebar-nav a{font-family: 'Montserrat' !important; font-weight: bold !important; font-size: 1em !important; text-transform: uppercase; letter-spacing: .3em !important;}
+.sidebar-nav a{font-family: 'Arca' !important; font-weight: bold !important; font-size: 1em !important; text-transform: uppercase; letter-spacing: .3em !important;}
 .sub-menu li a{font-size: 8px; letter-spacing: -1px !important; font-weight: bold;}
 .color-hover-tan{font-family: 'Montserrat' !important; font-weight:400; background-color: #d8c693; border: none;}
 .color-hover-tan:hover{background-color: grey; color: white;}
@@ -153,6 +158,7 @@ section{background-color:black !important;}
 .percent-75{width: 75%;}
 
 .fullView{width: 100vw !important; height:800px; overflow:visible; display:block;}
+.center-col{max-width:50%;}
 
 .cursive{font-family: 'Crimson Text'; font-style: italic; font-weight: bold;}
 

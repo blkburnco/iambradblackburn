@@ -7,7 +7,7 @@ set -e
 yarn build
 
 #navigate into build output directory
-cd ghP
+cd dist
 
 #deploying to a custom domain
 echo 'www.iambradblackburn.com' > CNAME
