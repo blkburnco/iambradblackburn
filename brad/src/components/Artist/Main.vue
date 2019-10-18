@@ -1,7 +1,7 @@
 <template>
   <div class="main">
     <div class="lead">
-      <h1 class="name">Brad Blackburn</h1>
+      <h1 class="name"><span>B</span>rad <span>B</span>lackburn</h1>
       <h2 class="title"> Creative Leader | Graphic Artist | Animator</h2>
     </div><br><br>
   </div>
@@ -44,6 +44,10 @@ export default {
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
           white-space: nowrap;
+
+          span {
+            font-size: 1.2em;
+          }
       }
 
       .title {
