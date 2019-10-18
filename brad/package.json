@@ -25,6 +25,9 @@
     "sass-loader": "^8.0.0",
     "vue-template-compiler": "^2.6.10"
   },
+  "optionalDependencies": {
+    "fsevents": "*"
+  },
   "postcss": {
     "plugins": {
       "autoprefixer": {}
