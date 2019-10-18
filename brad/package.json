@@ -4,16 +4,25 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "web": "webpack --config build/webpack.config.dev.js"
   },
   "dependencies": {
+    "@vue/babel-preset-app": "^4.0.4",
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "cjs": "^0.0.11",
     "core-js": "^3.1.2",
+    "global": "^4.4.0",
+    "helper": "^0.0.13",
     "http-server": "^0.11.1",
+    "loader": "^2.1.1",
     "register-service-worker": "^1.6.2",
     "vue": "^2.6.10",
     "vue-gh-pages": "^1.19.0",
     "vue-router": "^3.0.6",
-    "vuex": "^3.0.1"
+    "vuex": "^3.0.1",
+    "webpack": "^4.41.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.0.0",
@@ -21,9 +30,15 @@
     "@vue/cli-plugin-router": "^4.0.0",
     "@vue/cli-plugin-vuex": "^4.0.0",
     "@vue/cli-service": "^4.0.0",
+    "css-loader": "^3.2.0",
+    "html-webpack-plugin": "^3.2.0",
     "node-sass": "^4.12.0",
     "sass-loader": "^8.0.0",
-    "vue-template-compiler": "^2.6.10"
+    "scss-loader": "0.0.1",
+    "vue-loader": "^15.7.1",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.10",
+    "webpack-cli": "^3.3.9"
   },
   "optionalDependencies": {
     "fsevents": "*"
