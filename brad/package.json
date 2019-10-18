@@ -4,8 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "web": "webpack --config build/webpack.config.dev.js"
+    "build": "vue-cli-service build"
   },
   "dependencies": {
     "@vue/babel-preset-app": "^4.0.4",
