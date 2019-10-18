@@ -1,4 +1,10 @@
+// module.exports = {
+//   runtimeCompiler: true,
+//   outputDir: 'ghP'
+// }
+
 module.exports = {
-  runtimeCompiler: true,
-  outputDir: 'ghP'
+  publicPath: process.env.NODE_ENV === 'production'
+  ? '/iambradblackburn/'
+  : '/'
 }
