@@ -3,6 +3,7 @@ import App from './Brad.vue'
 import './registerServiceWorker'
 import router from './router'
 import store from '@/store'
+import "@/assets/scss/brad.scss"
 
 Vue.config.productionTip = false
 

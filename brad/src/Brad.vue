@@ -1,25 +1,26 @@
 <template>
   <div id="app">
     <nav class="main-nav">
-      <div class="logo">
-        my.company
-      </div>
+      <a href="#home"><img class="logo" src="@/assets/logo/B-Monogram.png" alt="Brad Blackburn" /></a>
       <Burger></Burger>
     </nav>
-
     <Sidebar>
-      <ul class="sidebar-panel-nav">
+        <ul class="sidebar-panel-nav">
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#contact">Contact</a></li>
-      </ul>
+        </ul>
     </Sidebar>
+    <div class="lead">
+      <h1 class="name">Brad Blackburn</h1>
+      <h2 class="title"> Creative Leader | Graphic Artist | Animator</h2>
+    </div>
   </div>
 </template>
 
 <script>
-  import Burger from './components/Menu/Burger.vue';
-  import Sidebar from './components/Menu/Sidebar.vue';
+  import Burger from '@/components/Menu/Burger';
+  import Sidebar from '@/components/Menu/Sidebar';
 
   export default {
     name: 'app',
@@ -29,42 +30,3 @@
     }
   }
 </script>
-<style>
-  html {
-    height: 100%;
-    overflow:hidden;
-  }
-
-  body {
-    border: 0; margin: 0; padding: 0;
-    font-family: 'Lato';
-    height: 100%;
-    background: rgb(101,31,87);
-    background: linear-gradient(45deg, rgba(101,31,87,1) 0%, rgba(225,113,87,1) 48%, rgba(249,248,113,1) 100%);
-  }
-
-  .logo {
-    align-self: center;
-    color: #fff;
-    font-weight: bold;
-    font-family: 'Lato'
-  }
-
-  .main-nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 0.5rem 0.8rem;
-  }
-
-  ul.sidebar-panel-nav {
-    list-style-type: none;
-  }
-
-  ul.sidebar-panel-nav > li > a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.5rem;
-    display: block;
-    padding-bottom: 0.5em;
-  }
-</style>
