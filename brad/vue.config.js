@@ -1,6 +1,6 @@
 module.exports = {
   runtimeCompiler: true,
-  outputDir: 'ghP',
+  outputDir: 'dist',
   publicPath: process.env.NODE_ENV === 'production'
   ? '/iambradblackburn/brad/'
   : '/',
