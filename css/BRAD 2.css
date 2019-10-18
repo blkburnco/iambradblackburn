@@ -159,8 +159,6 @@ section{background-color:black !important;}
 
 .fullView{width: 100vw !important; height:800px; overflow:visible; display:block;}
 .center-col{max-width:50%;}
-.narrow-col{}
-.narrow-col p{color: #dedede; font-family: 'Raleway'; font-weight:bolder; font-size: 1.8em; line-height: 2em; text-align: justify; border: solid white thin; border-left:1px; border-right: 1px; padding:2em;}
 
 .cursive{font-family: 'Crimson Text'; font-style: italic; font-weight: bold;}
 
@@ -168,14 +166,6 @@ section{background-color:black !important;}
 .credit-title{ color:white; font-size:1.5em; font-weight:bolder; margin-top:2em; font-family: 'Steelfish'; text-decoration: underline; letter-spacing: 0px; text-transform: uppercase;}
 
 .project-title{font-family:Steelfish !important; font-weight:900 !important; font-size:3em; color:white;}
-
-
-/*/////////////////////////////////////////////////////////////////////
-BILLBOARDS
-/////////////////////////////////////////////////////////////////////*/
-.visibilitize .video-container{background-size:cover; background-position:center 0vh; filter:grayscale(.5); opacity:0.2 !important; }
-.billboard-home{background:url(../img/billboards/me_drawing.jpg) no-repeat top;}
-.billboard-about{background:url(../img/billboards/designer_wacom.jpg) no-repeat top;}
 
 /*/////////////////////////////////////////////////////////////////////
 TESTIMONIES
@@ -321,10 +311,10 @@ SLIDER STYLES
 .deck p {font-family:'Crimson Text', serif; line-height: 1.5; font-size: 1.8em; letter-spacing: 2px; color:white; text-align: center;}
 
 @media all and (max-width: 600px) { 
-/* #dropcap { font-size:7em; transform: translateY(0px); line-height: 1em; margin-right: 10px;}
+#dropcap { font-size:7em; transform: translateY(0px); line-height: 1em; margin-right: 10px;}
 .slider-title{font-size: 2em;}
 .slider-title-container{top:2vh;}
-.deck p { font-size: 1.2em; }  */
+.deck p { font-size: 1.2em; } 
 }
 /* .slider-title-container .deck {
   margin-left: 50%;
@@ -382,7 +372,6 @@ float: right;}
 /*/////////////////////////////////////////////////////////////////////
 VIDEO BACKGROUND
 /////////////////////////////////////////////////////////////////////*/
-
 /*.video-container {
   background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/35376/bg-3.jpg);//fallback-image while video loads
   background-color:rgb(09,20,35,);

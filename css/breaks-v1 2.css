@@ -92,13 +92,6 @@ TABLET-PORTRAIT-UP
     width: 90%;
     top: 55vh;
   }
-  .visibilitize .video-container {
-    background-size: cover;
-    background-position: center 0vh;
-  }
-  .billboard-home {
-    opacity: 0.7 !important;
-  }
   /*.open-content{position: absolute !important; top:25% !important; left:-10px !important; width:100% !important; margin-left:0px !important;}*/
   #open-content-text {
     width: 100% !important;
@@ -164,26 +157,9 @@ TABLET-PORTRAIT-UP
   .center-col {
     max-width: 100% !important;
   }
-  .narrow-col p {
-    font-size: 1.2em;
-    line-height: 2em;
-  }
   .slider-title-container {
     max-width: 50vw !important;
     top: 35vh;
-  }
-  .visibilitize .video-container {
-    background-size: 100% !important;
-    background-position: center 0vh !important;
-    -webkit-filter: grayscale(0.5);
-            filter: grayscale(0.5);
-    opacity: 0.5;
-  }
-  .billboard-home {
-    background: url(../img/billboards/me_drawing-fade.jpg) no-repeat center top;
-  }
-  .billboard-about {
-    background: url(../img/billboards/designer_wacom-fade.jpg) no-repeat center top;
   }
   .txt-scale {
     font-size: calc(64px + 20 * ( (100vw - 640px) / 420));

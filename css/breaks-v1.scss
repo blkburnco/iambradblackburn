@@ -85,6 +85,9 @@ TABLET-PORTRAIT-UP
 
   .slider-title-container{width: 90%; top:55vh;}
 
+  .visibilitize .video-container{background-size:cover; background-position:center 0vh; }
+  .billboard-home{opacity:.7!important;}
+
   /*.open-content{position: absolute !important; top:25% !important; left:-10px !important; width:100% !important; margin-left:0px !important;}*/
   #open-content-text{width: 100% !important;}
   .footer-left{padding-top:5em; height:5.5em;}
@@ -187,6 +190,11 @@ TABLET-PORTRAIT-UP
  .narrow-col p{font-size: 1.2em; line-height: 2em;}
  .slider-title-container {max-width:50vw!important; top:35vh;}
  //.slider-title2{line-height: .5em;}
+
+ .visibilitize .video-container{background-size:100%!important; background-position:center 0vh !important; filter:grayscale(.5); opacity:0.5; }
+ .billboard-home{background:url(../img/billboards/me_drawing-fade.jpg) no-repeat center top;}
+ .billboard-about{background:url(../img/billboards/designer_wacom-fade.jpg) no-repeat center top;}
+
  .txt-scale{font-size: calc(64px + 20 * ( (100vw - 640px) / 420));}
  //.slider-title{font-size: 1.5em !important; max-width: 350px !important; word-break: break-word !important;}
  .cap .small{font-size:4em !important;}
