@@ -173,9 +173,13 @@ section{background-color:black !important;}
 /*/////////////////////////////////////////////////////////////////////
 BILLBOARDS
 /////////////////////////////////////////////////////////////////////*/
-.visibilitize .video-container{background-size:cover; background-position:center 0vh; filter:grayscale(.5); opacity:0.2 !important; }
+.visibilitize .video-container{background-size:cover; background-position:center 0vh; filter:grayscale(.5) }
 .billboard-home{background:url(../img/billboards/me_drawing.jpg) no-repeat top;}
-.billboard-about{background:url(../img/billboards/designer_wacom.jpg) no-repeat top;}
+.billboard-about{background:url(../img/billboards/photoSession.jpg) no-repeat top;}
+.billboard-about2{background:url(../img/billboards/brad_studio0-bw.jpg) no-repeat top;}
+.billboard-about3{background:url(../img/billboards/IMG_8878.jpg) no-repeat top;}
+.billboard-connect{background:url(../img/billboards/billboard_BW_Headshot.jpg) no-repeat top;}
+
 
 /*/////////////////////////////////////////////////////////////////////
 TESTIMONIES

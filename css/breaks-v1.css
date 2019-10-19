@@ -95,6 +95,8 @@ TABLET-PORTRAIT-UP
   .visibilitize .video-container {
     background-size: cover;
     background-position: center 0vh;
+    -webkit-filter: grayscale(0.5);
+            filter: grayscale(0.5);
   }
   .billboard-home {
     opacity: 0.7 !important;
@@ -175,15 +177,23 @@ TABLET-PORTRAIT-UP
   .visibilitize .video-container {
     background-size: 100% !important;
     background-position: center 0vh !important;
-    -webkit-filter: grayscale(0.5);
-            filter: grayscale(0.5);
-    opacity: 0.5;
+    -webkit-filter: grayscale(0.5) !important;
+            filter: grayscale(0.5) !important;
   }
   .billboard-home {
-    background: url(../img/billboards/me_drawing-fade.jpg) no-repeat center top;
+    background: url(../img/billboards/Billboard-fade_home.jpg) no-repeat center top;
   }
   .billboard-about {
-    background: url(../img/billboards/designer_wacom-fade.jpg) no-repeat center top;
+    background: url(../img/billboards/Billboard-fade_photo-session.jpg) no-repeat top;
+  }
+  .billboard-about2 {
+    background: url(../img/billboards/Billboard-fade_about.jpg) no-repeat top;
+  }
+  .billboard-about3 {
+    background: url(../img/billboards/Billboard-fade_me2.jpg) no-repeat top;
+  }
+  .billboard-connect {
+    background: url(../img/billboards/Billboard-fade_me.jpg) no-repeat top;
   }
   .txt-scale {
     font-size: calc(64px + 20 * ( (100vw - 640px) / 420));
