@@ -1,16 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150687297-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-150687297-1');
-</script>
-
 	<meta charset="UTF-8" />
 	<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0" name="viewport">
 	<meta name="twitter:widgets:theme" content="light">
@@ -50,8 +40,7 @@
 	<link rel="stylesheet" href="type/icons.css">	
 	<link rel="stylesheet" href="css/animation.css">
 	<!-- <link rel="stylesheet" href="css/instagram.css"> -->
-	<link rel="stylesheet" href="css/breaks-v1.css">
-	<!-- <link rel="stylesheet" href="css/4panel.css"> -->
+	<link rel="stylesheet" href="css/breaks.css">
 
 	<!--[if lt IE 9]>
     	<script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -60,8 +49,6 @@
 </head>
 
 <body class="shop home-page" style="background-color: #000 !important;">
-
-
 
 	<aside class="side-navigation-wrapper enter-right" data-no-scrollbar data-animation="reveal" style="background-color: #070e18;">
 		<div class="side-navigation-scroll-pane">
@@ -74,11 +61,10 @@
 					</div>
 				</div>
 				<nav class="side-navigation center">
-					<ul class="sidebar-nav ">
-						<li ><a href="pages/about/">ABOUT</a></li>
+					<ul class="sidebar-nav">
+						<li><a href="pages/about/">ABOUT</a></li>
 						<!-- <li><a href="pages/about/#team">TEAM</a></li> -->
 						<li><a href="https://bradblackburn.myportfolio.com">PROJECTS</a></li>
-						<li><a href="https://vimeo.com/iambradblackburn">VIDEOS</a></li>
 						<li><a href="pages/connect">CONNECT</a></li>
 					</ul>
 				</nav>
@@ -110,14 +96,14 @@ HEADER
 -->			
 
 			<!-- Header -->
-			<header class="header header-fixed header-fixed-on-mobile header-transparent " data-bkg-threshold="830">
+			<header class="header header-fixed header-fixed-on-mobile header-transparent " data-bkg-threshold="830"">
 				<div class="header-inner">
 					<div class="row nav-bar">
 						<div class="column width-12 nav-bar-inner">
 							<div class="logo">
-								<div class="logo-inner logo-resize">
-									<a href="index.html"><img  src="img/logo/B-Monogram.png" alt="Logo" /></a>
-									<a href="index.html"><img src="img/logo/B-Monogram.png" alt="Logo" /></a>
+								<div class="logo-inner">
+									<a href="index.html"><img  src="img/IABB-monogram-rev-small.png" alt="Logo" /></a>
+									<a href="index.html"><img src="img/IABB-monogram-rev-small.png" alt="Logo" /></a>
 								</div>
 							</div>
 
@@ -173,15 +159,14 @@ SLIDER CAROUSEL
 					  </div>
 					<div id="break" style="color:white; z-index:2;">HELLO WORLD!</div>
 				  </section> -->
-				<section id="section0" class="section-block featured-media window-height tm-slider-parallax-container fullView y-mandatory" style="background-color: #000 !important; z-index: 100 !important; height:200vh !important; overflow:visible;">
-					<div id="section0a" class="tm-slider-container full-width-slider scrolly" data-featured-slider data-parallax data-parallax-fade-out data-animation="scaleOut" data-speed="1200" data-scale-under="960" style="background-color: #000 !important;">
+				<section id="section0" class="section-block featured-media window-height tm-slider-parallax-container fullView" style="background-color: #000 !important; z-index: 100 !important; height:200vh !important; overflow:visible;">
+					<div id="section0a" class="tm-slider-container full-width-slider" data-featured-slider data-parallax data-parallax-fade-out data-animation="scaleOut" data-speed="1200" data-scale-under="960" style="background-color: #000 !important;">
 						<ul >	
 							<li>						
-								<div class="slider-title-container" style="z-index: 1;">
+								<div class="slider-title-container" style="z-index: 1; top:55vh;">
 									<div class="title_slide-in color-white" style="z-index: 1;" >
-										<div class="slider-title2 txt-arca" style="margin-left:-25px;"><span class="gradient-font txt-scale" style="block;"  data-text="Brad">Brad </span><span class="gradient-font txt-scale" style="block;" data-text="Blackburn">Blackburn</span></div>
-										<!-- <div class="slider-title2 txt-arca ">  <span class="gradient-font txt-scale" data-text="Blackburn" style="visibility: visible">Blackburn</span></div> -->
-										<div class="tagline-avenir txt-scale-subtitle" style="margin-left: -25px;">Creative Leader | Graphic Artist | Animator</div>
+										<div class="txt-scale slider-title2 txt-arca ">  <span class="gradient-font" data-text="Brad">Brad</span><br><span class="gradient-font" data-text="Blackburn">Blackburn</span></div>
+										<div class="tagline-avenir gradient-font-1 txt-scale">Creative Leader | Graphic Artist | Animator</div>
 									</div>
 									<div class="column width-12" style="top:25vh !important; transform: scale(.7);">
 										<ul class="activity fade-out" style="width:100px; margin-left:50%; transform:translateX(-50%);">
@@ -189,8 +174,8 @@ SLIDER CAROUSEL
 										</ul>
 									</div>
 								</div>
-								<div  class="fade-in visibilitize hue-alpha">
-									<div class="video-container bg-fade-out billboard-home" style=" background-position:center -70vh;  opacity:.7!important;"></div>
+								<div  class="fade-in visibilitize hue-alpha starter-pack">
+									<div class="video-container bg-fade-out hue-intro" style="background:url(img/billboards/me_drawing.jpg) no-repeat top; background-size:cover; background-position:center -20vh; filter:grayscale(.5); opacity:0.7 !important;"></div>
 								</div>
 							</li>
 						</ul>
@@ -198,26 +183,22 @@ SLIDER CAROUSEL
 				</section>
 
 				<!-- About Me -->
-				<section id="section1" class="section-block grid-filter-menu pt-110 right left-on-mobile y-mandatory" style="background:url(img/BG-films.jpg) no-repeat; background-blend-mode: luminosity; background-color:#141414 !important; background-size:cover; background-position:center; height: auto !important;  height: auto !important; padding-top:10em; position:relative; z-index:2;">
-					<div class="row no-padding scrolly" style="height:90vh !important; margin-top:7%;">
+				<section id="section1" class="section-block grid-filter-menu pt-110 right left-on-mobile" style="background:url(img/billboards/brad_studio0-bw.jpg) no-repeat; background-color:black !important; background-size:cover; background-position:center; height: auto !important;  height: auto !important; padding-top:10em; position:relative; z-index:2;">
+					<div class="row no-padding" style="height:90vh !important; margin-top:7%;">
 						<div class="column width-12">
-							<h2 class="mb-mobile-50 section-title txt-arca gradient-font-1" style="text-align: center; z-index: 1;" data-text="About Me">About Me</h2>
+							<h2 class="mb-mobile-50 section-title txt-arca gradient-font-1" style="text-align: center;" data-text="About Me">About Me</h2>
 						</div>
 						<div class="column width-3">&nbsp;</div>
-						<div class="column width-6 center-col opacity-07">
-							<div class="narrow-col"><div id="dropcap" class="gradient-font-1" style="margin-top:.3em; transform:scale(1.4)!important;">W</div><p><span class="secret-letter">W</span>hen I began working in the creative field, there were no rules and the only limit was the horizon of the imagination.  These days, the industry has matured enough for our vantage to grow a little wider <span class="cursive">&amp;</span> more sophisticated. For over 20 years, I have been a visual artist <span class="cursive">&amp;</span> craftsman, providing skilled leadership to the creative services industry.  Creativity <span class="cursive">&amp;</span> Inspiration are my trade.  I have lead teams <span class="cursive">&amp;</span> supported a diverse range of clientele.  Thank you for visiting my site.  I hope you learn more about me <span class="cursive">&amp;</span> my work.  I look forward to hearing from you.</p>
+						<div class="column width-6 opacity-07">
+							<div class="cap"><div id="dropcap" class="gradient-font-1" style="margin-top:.3em; transform:scale(1.4);">W</div><p style="color: #dedede; font-family: 'Raleway'; font-weight:bolder; font-size: 1.8em; line-height: 2em; text-align: justify; border: solid white thin; border-left:1px; border-right: 1px; padding:2em;">hen I began working in the creative field, there were no rules and the only limit was the horizon of the imagination.  These days, the industry has matured enough for our vantage to grow a little wider <span class="cursive">&amp;</span> more sophisticated. For over 20 years, I have been a visual artist <span class="cursive">&amp;</span> craftsman, providing skilled leadership to the creative services industry.  Creativity <span class="cursive">&amp;</span> Inspiration are my trade.  I have lead teams <span class="cursive">&amp;</span> supported a diverse range of clientele.  Thank you for visiting my site.  I hope you learn more about me <span class="cursive">&amp;</span> my work.  I look forward to hearing from you.</p>
 						</div>
 						<div class="column width-3">&nbsp;</div>
-						<div class="column width-12" style="transform: scale(.7); margin-left:-25px;">
+						<div class="column width-12" style="transform: scale(.7);">
 							<ul class="activity" style="width:100px; margin-left:50%; transform:translateX(-50%);">
 								<a href="#section2" class="button" style="background:none; margin-left:50%; transform: translateX(-50%);  border:none;"><li class="button" style="background-color:rgba(00,00,00,.5); border:10px solid #937B5D;"><i class="fa fa-angle-down animated bounce scrollBounceButton" style="margin-left:-15px; color:#D4C2A2;"></i></li></a>       
 							</ul>
 						</div>
-						<div  class="visibilitize" style="margin-left:0px;">
-							<div class="video-container billboard-about2" style="left:0px; z-index:-1; opacity:.7!important;"></div>
-						</div>
 					</div>
-					
 					
 				</section>
 
@@ -287,9 +268,9 @@ SLIDER CAROUSEL
 				</section> -->
 
 
-				<section id="section2" class="section-block hero-5 hero-5-1 clear-height left show-media-column-on-mobile bg-navy color-white fullView y-mandatory ">
-					<div class="media-column width-5 horizon scrolly" data-animate-in="preset:fadeIn;duration:1000ms;" data-threshold="0.5" style="overflow:hidden;">
-						<div class="bg animated BG-Animation" style="background: url(pages/projects/optimus/img/optimus.gif) no-repeat; background-size:cover; background-position:70%; background-attachment: fixed; height: 100%;"></div>
+				<section id="section2" class="section-block hero-5 hero-5-1 clear-height left show-media-column-on-mobile bg-grey color-white fullView">
+					<div class="media-column width-5 horizon" data-animate-in="preset:fadeIn;duration:1000ms;" data-threshold="0.5" style="overflow:hidden;">
+						<div class="bg animated" style="background: url(pages/projects/optimus/img/optimus.gif) no-repeat; background-size:cover; background-position:70%; background-attachment: contain; height: 100%;"></div>
 					</div>
 					<div class="row">
 						<div class="column width-6 offset-6">
@@ -302,9 +283,9 @@ SLIDER CAROUSEL
 									 <p class="opacity-07 left weight-bold">
 										 <em>“Animation is about creating the illusion of life. And you can't create it if you don't have one.” <br> - Brad Bird</em>
 									 </p>
-									 <iframe src="https://player.vimeo.com/349784011" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+									 <iframe src="https://player.vimeo.com/video/288249656" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 									 <div style="margin-bottom:50px; display: block; font-weight: bolder;"> 
-										 <caption><em>Envi Biodegradeable Bags</em></caption>
+										 <caption><em>CityGate Network Benefits Promotion</em></caption>
 									 </div>
 									 <a href="https://bradblackburn.myportfolio.com"><button class="button large color-hover-grey rounded bg-gold txt-grey">See Samples</button></a>
 									 <div class="column width-12" style="transform: scale(.7);">
@@ -318,8 +299,8 @@ SLIDER CAROUSEL
 					</div>
 				</section>
 				
-				<section id="branding" class="section-block hero-5 hero-5-1 clear-height right show-media-column-on-mobile bg-grey color-white fullView y-mandatory">
-					<div class="media-column width-5 horizon scrolly" data-animate-in="preset:fadeIn;duration:1000ms;" data-threshold="0.5" style="overflow:hidden;">
+				<section id="branding" class="section-block hero-5 hero-5-1 clear-height right show-media-column-on-mobile bg-navy color-white fullView">
+					<div class="media-column width-5 horizon" data-animate-in="preset:fadeIn;duration:1000ms;" data-threshold="0.5" style="overflow:hidden;">
 						<div class="bg animated" style="background: url(img/BG-branding-hover2.jpg) no-repeat; background-size:cover; background-position:left; background-attachment: fixed; height: 100%;"></div>
 					</div>
 
@@ -344,9 +325,9 @@ SLIDER CAROUSEL
 					</div>
 				</section>
 
-				<section id="ui" class="section-block hero-5 hero-5-1 clear-height left show-media-column-on-mobile bg-navy color-white fullView y-mandatory">
-					<div class="media-column width-5 horizon scrolly" data-animate-in="preset:fadeIn;duration:1000ms;" data-threshold="0.5" style="overflow:hidden;">
-						<div class="bg animated" style="background: url(img/BG-ui.jpg) no-repeat; background-size:cover; background-position:left; background-attachment:fixed; height: 100%;"></div>
+				<section id="ui" class="section-block hero-5 hero-5-1 clear-height left show-media-column-on-mobile bg-grey color-white fullView">
+					<div class="media-column width-5 horizon" data-animate-in="preset:fadeIn;duration:1000ms;" data-threshold="0.5" style="overflow:hidden;">
+						<div class="bg animated" style="background: url(img/portraits/iMac.jpg) no-repeat; background-size:cover; background-position:right; background-attachment: fixed; height: 100%;"></div>
 					</div>
 
 					<div class="row">
@@ -370,9 +351,9 @@ SLIDER CAROUSEL
 					</div>
 				</section>
 
-				<section id="leadership" class="section-block hero-5 hero-5-1 clear-height right show-media-column-on-mobile bg-grey color-white fullView y-mandatory">
-					<div class="media-column width-5 horizon scrolly" data-animate-in="preset:fadeIn;duration:1000ms;" data-threshold="0.5" style="overflow:hidden;">
-						<div class="bg animated BG-strategy"></div>
+				<section id="leadership" class="section-block hero-5 hero-5-1 clear-height right show-media-column-on-mobile bg-navy color-white fullView">
+					<div class="media-column width-5 horizon" data-animate-in="preset:fadeIn;duration:1000ms;" data-threshold="0.5" style="overflow:hidden;">
+						<div class="bg animated" style="background: url(img/BG-strategy-hover.jpg) no-repeat; background-size:cover; background-position:left; background-attachment: fixed; height: 100%;"></div>
 					</div>
 
 					<div class="row">
@@ -385,83 +366,55 @@ SLIDER CAROUSEL
 									<p class="opacity-07 left weight-bold">“It's gonna take time, A whole lot of precious time, It's gonna take patience and time, to do it right” – George Harrison</p>
 									<p class="mb-50 left opacity-05">Careful planning and intentional thought go into a good strategy solution.  It does take time and patience, but my clients have come to appreciate the attention to detail and results that attention delivers.</p>
 									<p class="opacity-07 left weight-bold">“However beautiful the strategy, you should occasionally look at the results” – Sir Winston Churchill</p>
-									<a href="https://bradblackburn.myportfolio.com"><button class="button large color-hover-grey rounded bg-gold">See Examples</button></a>
+									<a href="https://bradblackburn.myportfolio.com""><button class="button large color-hover-grey rounded bg-gold">See Examples</button></a>
 									<!-- <ul class="activity" style="width:100px; margin-left:50%; transform:translateX(-50%); background:none;">
 										<a href="#section4" class="button" style="border:none; width:0px; background:none;"><li class="button" style="background-color:rgba(50,50,50,.5); border:10px solid teal;"><i class="fa fa-angle-down animated bounce scrollBounceButton" style="margin-left:-5px;"></i></li></a>      
 									</ul> -->
 								</div>
 							</div>
-							<!-- <div class="column width-12" style="transform: scale(.7);">
+							<div class="column width-12" style="transform: scale(.7);">
 								<ul class="activity" style="width:100px; margin-left:50%; transform:translateX(-50%);">
 									<a href="#section6" class="button" style="background:none; margin-left:50%; transform: translateX(-50%);  border:none;"><li class="button" style="background-color:rgba(00,00,00,.5); border:10px solid #937B5D;"><i class="fa fa-angle-down animated bounce scrollBounceButton" style="margin-left:-5px; color:#D4C2A2;"></i></li></a>       
 								</ul>
-							</div> -->
+							</div>
 						</div>
 					</div>
 				</section>
 		
-				<section id="section9" class="section-block featured-media window-height fullView bg-grey">
-					<div class="column width-12" style="display:block; position:relative; padding: 100px 0px 50px 0px; overflow:visible; z-index:5;">
-						<h2 class="mb-mobile-50 section-title txt-arca gradient-font-1" data-animate-in="preset:slideInLeftShort;duration:2000ms;" data-threshold="0.5" style="text-align: center;">Artistic Inspiration</h2>
+				<!-- <section id="section5" class="section-block featured-media window-height fullView bg-grey">
+					<div class="column width-12 bg-grey" style="padding: 100px 0px 50px 0px;">
+						<h2 class="mb-mobile-50 section-title" data-animate-in="preset:slideInLeftShort;duration:2000ms;" data-threshold="0.5" style="text-align: center;">Artistic Inspiration</h2>
+						//<img src="img/title-love-what-we-do.png" alt="work we do" width="500px" style="padding-bottom:3em;">
+						<div class="column width-3">&nbsp;</div>
+						<div class="column width-6">&nbsp;<hr></div>
+						<div class="column width-3">&nbsp;</div>
 					</div>
+					<div class="tm-slider-container full-width-slider" >
+						
+						/*<ul class="activity" style="width:100px; margin-left:50%; transform:translateX(-50%); background:none; position: relative; float:left; z-index: 5; margin-top:70vh; display:block;">
+								<a href="#section4" class="button" style="border:none; width:0px; background:none;"><li class="button" style="background-color:rgba(50,50,50,.5); border:10px solid teal;"><i class="fa fa-angle-down animated bounce scrollBounceButton" style="margin-left:-5px;"></i></li></a>      
+							</ul>*/
 
-					<div class="tm-slider-container full-width-slider" style="height:100vh;">
-						<ul class="tms-slides " style="display:block; height:100vh; overflow: visible; padding-left:20vw;" >	
-
-							<li class="tms-slide"  style="display:block; height: 100vh; overflow: hidden;">
-								<div class="hero-content-inner  horizon winston-courage-quote" data-animate-in="preset:slideInRightShort;duration:2000ms;" data-threshold="0.5">
-									<blockquote class="avatar left bg-indigo-transparent" style="border: solid white 3px; min-width: 350px; width:auto; padding:50px; position:relative; transform:translateY(-50%);left:0px;">
-										<p class="txt-crimson" style=" font-size: 1.5em !important; color:white;"><strong>"You can't depend on your eyes when your imagination is out of focus."</strong></p>
-										<cite class="bg-gold" style="padding:5px; color: #0B1827; font-size:1.1em; font-weight: bolder !important; width: 50%; float: right; text-align:center;">Mark Twain</cite>
-									</blockquote>
-								</div>
-								<div  class="fade-in  hue-alpha" >
-									<div class="video-container bg-fade-out billboard-twain billboard-right" style=" background-position:center center; background-attachment:fixed; opacity:.2!important;"></div>
-								</div>
-							</li>
-
-							<li class="tms-slide"  style="display:block; height: 100vh; overflow: hidden;">
-								<div class="hero-content-inner  horizon winston-courage-quote" data-animate-in="preset:slideInRightShort;duration:2000ms;" data-threshold="0.5">
-									<blockquote class="avatar left bg-indigo-transparent" style="border: solid white 3px; min-width: 350px; width:auto; padding:50px; position:relative; transform:translateY(-50%);left:0px;">
-										<p class="txt-crimson" style=" font-size: 1.5em !important; color:white;"><strong>"Courage is what it takes to stand up and speak; courage is also what it takes to sit down and listen."</strong></p>
-										<cite class="bg-gold" style="padding:5px; color: #0B1827; font-size:1.1em; font-weight: bolder !important; width: 50%; float: right; text-align:center;">Winston Churchill</cite>
-									</blockquote>
-								</div>
-								<div  class="fade-in  hue-alpha" >
-									<div class="video-container bg-fade-out billboard-churchill billboard-right" style=" background-position:center center; background-attachment:fixed; opacity:.2!important;"></div>
-								</div>
-							</li>
-
-							<li class="tms-slide"  style="display:block; height: 100vh; overflow: hidden;">
-								<div class="hero-content-inner  horizon winston-courage-quote" data-animate-in="preset:slideInRightShort;duration:2000ms;" data-threshold="0.5">
-									<blockquote class="avatar left bg-indigo-transparent" style="border: solid white 3px; min-width: 350px; width:auto; padding:50px; position:relative; transform:translateY(-50%);left:0px;">
-										<p class="txt-crimson" style=" font-size: 1.5em !important; color:white;"><strong>"Reason is the natural order of truth, but imagination is the organ of meaning."</strong></p>
-										<cite class="bg-gold" style="padding:5px; color: #0B1827; font-size:1.1em; font-weight: bolder !important; width: 50%; float: right; text-align:center;">C.S. Lewis</cite>
-									</blockquote>
-								</div>
-								<div  class="fade-in  hue-alpha" >
-									<div class="video-container bg-fade-out billboard-lewis billboard-right" style=" background-position:center center; background-attachment:fixed; opacity:.2!important;"></div>
-								</div>
-							</li>
-
-							<li class="tms-slide"  style="display:block; height: 100vh; overflow: hidden;">
-								<div class="hero-content-inner  horizon winston-courage-quote" data-animate-in="preset:slideInRightShort;duration:2000ms;" data-threshold="0.5">
-									<blockquote class="avatar left bg-indigo-transparent" style="border: solid white 3px; min-width: 350px; width:auto; padding:50px; position:relative; transform:translateY(-50%);left:0px;">
-										<p class="txt-crimson" style=" font-size: 1.5em !important; color:white;"><strong>“Love and trust, in the space between what’s said and what’s heard in our life, can make all the difference in the world. ”</strong></p>
-										<cite class="bg-gold" style="padding:5px; color: #0B1827; font-size:1.1em; font-weight: bolder !important; width: 50%; float: right; text-align:center;">Mr. Rogers</cite>
-									</blockquote>
-								</div>
-								<div  class="fade-in  hue-alpha" >
-									<div class="video-container bg-fade-out billboard-rogers billboard-right" style=" background-position:center center; background-attachment:fixed; opacity:.4!important;"></div>
-								</div>
-							</li>
-
+						<ul class="tms-slides">		
 							
 
-							<!-- <li class="tms-slide"  style=" height:100vh; background:#091423; overflow: hidden;">
+							<li class="tms-slide"  style="height: 100vh; background:#091423; overflow: hidden;">
 								
 								<div class="hero-content-inner left horizon winston-courage-quote" data-animate-in="preset:slideInRightShort;duration:2000ms;" data-threshold="0.5" style="padding-left:20%;">
-									<img class="percent-75" src="img/winston-courage-quote.png" alt="courage">
+									//<img class="percent-75" src="img/winston-courage-quote.png" alt="courage">
+									<blockquote class="avatar left bg-indigo-transparent" style="border: solid white 3px; min-width: 350px; width:auto; padding:50px; position:absolute; top: 50%; transform:translateY(-50%);left:200px;">
+										<p class="txt-crimson" style=" font-size: 1.5em !important; color:white;"><strong>"You can't depend on your eyes when your imagination is out of focus."</strong></p>
+										<cite class="bg-orange" style="padding:5px; color: #0B1827; font-size:1.1em; font-weight: bolder !important; width: 50%; float: right; text-align:center;">Mark Twain</cite>
+									</blockquote>
+								</div>
+								<div class="bg" style="background:#091423 url(img/mark-twain-color.jpg) right top no-repeat; background-size:cover; background-position:right; position:absolute; float:right; top:0px; width: 100%; height: 100%; z-index: -1; display: block;"></div>
+
+							</li>
+
+							<li class="tms-slide  style=" height:100vh; background:#091423; overflow: hidden;">
+								
+								<div class="hero-content-inner left horizon winston-courage-quote" data-animate-in="preset:slideInRightShort;duration:2000ms;" data-threshold="0.5" style="padding-left:20%;">
+									//<img class="percent-75" src="img/winston-courage-quote.png" alt="courage">
 									<blockquote class="avatar left bg-indigo-transparent" style="border: solid white 3px; min-width: 350px; width:auto; padding:50px; position:absolute; top: 50%; transform:translateY(-50%);left:200px;">
 										<p class="txt-crimson" style=" font-size: 1.5em !important; color:white;"><strong>"Courage is what it takes to stand up and speak; courage is also what it takes to sit down and listen."</strong></p>
 										<cite class="bg-orange" style="padding:5px; color: #0B1827; font-size:1.1em; font-weight: bolder !important; width: 50%; float: right; text-align:center;">Winston Churchill</cite>
@@ -474,7 +427,7 @@ SLIDER CAROUSEL
 							<li class="tms-slide"  style="height: 100vh; background:#091423; overflow: hidden;">
 								
 								<div class="hero-content-inner left horizon winston-courage-quote" data-animate-in="preset:slideInRightShort;duration:2000ms;" data-threshold="0.5" style="padding-left:20%;">
-									<img class="percent-75" src="img/winston-courage-quote.png" alt="courage">
+									//<img class="percent-75" src="img/winston-courage-quote.png" alt="courage">
 									<blockquote class="avatar left bg-indigo-transparent" style="border: solid white 3px; min-width: 350px; width:auto; padding:50px; position:absolute; top: 50%; transform:translateY(-50%);left:200px;">
 										<p class="txt-crimson" style=" font-size: 1.5em !important; color:white;"><strong>"Reason is the natural order of truth, but imagination is the organ of meaning."</strong></p>
 										<cite class="bg-orange" style="padding:5px; color: #0B1827; font-size:1.1em; font-weight: bolder !important; width: 50%; float: right; text-align:center;">C.S. Lewis</cite>
@@ -482,16 +435,16 @@ SLIDER CAROUSEL
 								</div>
 								<div class="bg" style="background:#091423 url(img/cs-lewis-color.jpg) right top no-repeat; background-size:cover; background-position:right; position:absolute; float:right; top:0px; width: 110vw; height: 110vh; z-index: -1; display: block;"></div>
 
-							</li> -->
+							</li>
 						</ul>
 						
 					</div>
-				</section>
+				</section> -->
 
 
 
 				<!-- PANO Section -->
-				<!-- <div id="section6" class="section-block bg-grey" style="padding: 0px; overflow: hidden;">
+				<div id="section6" class="section-block bg-grey" style="padding: 0px; overflow: hidden;">
 
 					<div class="column width-12 color-white" style="min-height: 600px; height:100vh; overflow: hidden;">
 						<div class="row" style="margin-bottom: : 0px !important;">
@@ -503,7 +456,7 @@ SLIDER CAROUSEL
 						<div class="bg animated" style="background: url(img/billboards/atl-pano.jpg) center no-repeat; background-size:cover; background-position:center bottom; position:absolute; float:right; top:0px; width: 110vw; height: 110vh;  min-height: 600px; z-index: -1; display: block; opacity:.5; filter: grayscale(.8);"></div>	
 					</div>	
 								
-				</div> -->
+				</div>
 				<!-- PANO Section -->
 
 			</div>
@@ -513,15 +466,15 @@ SLIDER CAROUSEL
 			<footer class="footer" style="background-color: #141414;">
 				<div class="footer-top">
 					<div class="row flex">
-						<div class="column width-2 color-white left center-on-mobile footer-left">
+						<div class="column width-2 color-white left center-on-mobile" style="padding-top:5em; height:5.5em;">
 							<!-- <h5 "style="margin-bottom: 0px; font-family: Assistant;>Call Us Today:</h5> -->
-							<p style="font-weight:bolder; font-family: Assistant; font-size:3.2rem;">678.381.1944</p>
+							<p style="font-weight:bolder; font-family: Assistant; font-size:3.2rem;">678.905.6246</p>
 						</div>
 						<!-- <div class="column width-1 center-on-mobile" style="background:yellow; background:url(img/IABB-monogram-rev-small.png) center no-repeat; background-size:cover; background-position: center; height:4.5em;"></div> -->
-						<div class="column width-9 color-white footer-center" style="background:url(img/IABB-monogram-rev-small.png) center no-repeat; background-size:contain; background-position: center top;">
+						<div class="column width-9 color-white" style="background:url(img/IABB-monogram-rev-small.png) center no-repeat; background-size:contain; background-position: center top; height:4em; padding-top:5em;">
 							<h5 style="text-align: center; font-family:'Arca';">Restore Goodness, Beauty,<br><span class="cursive">&amp;</span> Truth in others around you</h5>
 						</div>
-						<div class="column width-1 right center-on-mobile footer-right">	
+						<div class="column width-1 right center-on-mobile" style="padding-top:5em; height:8.5em;">	
 							<img src="img/made-in-usa.png" alt="made in usa">
 						</div>
 					</div>
@@ -550,10 +503,11 @@ SLIDER CAROUSEL
 	</div>
 
 	<!-- Js -->
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
 	<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
 	<script  src="js/credits.js"></script>
 	<script  src="js/fader.js"></script>
-	<!-- <script src="http://maps.googleapis.com/maps/api/js?v=3"></script> -->
+	<script src="http://maps.googleapis.com/maps/api/js?v=3"></script>
 	<script src="js/timber.master.min.js"></script>
 	<script src="js/proton.min.js"></script>
 	<!-- <script src="js/map-index.js"></script> -->

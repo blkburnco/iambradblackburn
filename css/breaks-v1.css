@@ -78,9 +78,6 @@ TABLET-PORTRAIT-UP
     top: 150px !important;
   }
   /*.logo {position:relative !important;float:left !important; margin-left: 50%; left:-75px !important;}*/
-  .winston-courage-quote {
-    padding-top: 60%;
-  }
   .percent-75 {
     width: 100%;
   }
@@ -101,6 +98,9 @@ TABLET-PORTRAIT-UP
   .billboard-home {
     opacity: 0.7 !important;
   }
+  /*/////////////////////////////////////////////////////////////////////
+  BG
+  /////////////////////////////////////////////////////////////////////*/
   /*.open-content{position: absolute !important; top:25% !important; left:-10px !important; width:100% !important; margin-left:0px !important;}*/
   #open-content-text {
     width: 100% !important;
@@ -116,6 +116,10 @@ TABLET-PORTRAIT-UP
   .footer-right {
     height: 8.5em;
     padding-top: 5em;
+  }
+  .txt-scale {
+    font-size: calc(64px + 20 * ( (100vw - 640px) / 420));
+    line-height: 0.8em;
   }
 }
 
@@ -162,10 +166,14 @@ TABLET-PORTRAIT-UP
             transform: translateX(-50%) !important;
   }
   .winston-courage-quote {
-    top: 40em;
-  }
-  .winston-courageous {
-    background-position: -500px 0px !important;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 0vw;
+    -webkit-transform: scale(0.8) !important;
+            transform: scale(0.8) !important;
+    max-width: 60vw;
   }
   .center-col {
     max-width: 100% !important;
@@ -184,6 +192,9 @@ TABLET-PORTRAIT-UP
     -webkit-filter: grayscale(0.5) !important;
             filter: grayscale(0.5) !important;
   }
+  /*/////////////////////////////////////////////////////////////////////
+BILLBOARDS
+/////////////////////////////////////////////////////////////////////*/
   .billboard-home {
     background: url(../img/billboards/Billboard-fade_home.jpg) no-repeat center top;
   }
@@ -199,8 +210,18 @@ TABLET-PORTRAIT-UP
   .billboard-connect {
     background: url(../img/billboards/Billboard-fade_me.jpg) no-repeat top;
   }
+  .billboard-right {
+    background-position: right !important;
+  }
   .txt-scale {
-    font-size: calc(64px + 20 * ( (100vw - 640px) / 420));
+    padding: none;
+    margin: none;
+    line-height: 2px;
+  }
+  .txt-scale-subtitle {
+    font-size: calc(14px + 20 * ( (100vw - 380px) / 400));
+    padding: none;
+    margin: none;
   }
   .cap .small {
     font-size: 4em !important;
@@ -240,6 +261,9 @@ TABLET-PORTRAIT-UP
     height: 8.5em;
     margin-top: 5em;
     padding-top: 5em;
+  }
+  .slider-title-container {
+    top: 35vh;
   }
 }
 

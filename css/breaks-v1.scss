@@ -78,7 +78,7 @@ TABLET-PORTRAIT-UP
   .tms-bullet-nav {position: relative; top:150px !important;}
   /*.logo {position:relative !important;float:left !important; margin-left: 50%; left:-75px !important;}*/
 
-  .winston-courage-quote{padding-top:60%;}
+  // .winston-courage-quote{padding-top:60%;}
   .percent-75{width: 100%;}
 
   .fullView{width: 100%; min-height: 1024px;}
@@ -88,11 +88,19 @@ TABLET-PORTRAIT-UP
   .visibilitize .video-container{background-size:cover; background-position:center 0vh; filter:grayscale(.5);}
   .billboard-home{opacity:.7!important;}
 
+  /*/////////////////////////////////////////////////////////////////////
+  BG
+  /////////////////////////////////////////////////////////////////////*/
+  //.BG-strategy{background-position:center;}
+  // .BG-animation{background-position:60vw center;}
+
   /*.open-content{position: absolute !important; top:25% !important; left:-10px !important; width:100% !important; margin-left:0px !important;}*/
   #open-content-text{width: 100% !important;}
   .footer-left{padding-top:5em; height:5.5em;}
   .footer-center{height:4em; padding-top:5em;}
   .footer-right{height:8.5em; padding-top:5em;}
+  .txt-scale{font-size: calc(64px + 20 * ( (100vw - 640px) / 420)); line-height:0.8em;}
+  
 }
 
 @media only screen and (max-width: 960px) {
@@ -174,7 +182,7 @@ TABLET-PORTRAIT-UP
   //.tms-bullet-nav {position: relative; top:150px !important;}
   /*.logo {position:relative !important; float:left !important; left:-400px !important;}*/
   /*.aux-navigation{position: relative !important; float:right !important; right: 0px !important; top: -100px !important;}*/
-  // .winston-courage-quote{position:static; display: inline-block; padding-top:32em;}
+   //.winston-courage-quote{position:static; display: inline-block; padding-top:32em;}
   // .winston-courageous{background-position: -600px 0px !important;}
   // .fullView{width: 100%; height: 600px;}
 
@@ -184,21 +192,31 @@ TABLET-PORTRAIT-UP
 
 @media (orientation:portrait) {
   .logo {transform: scale(.75,.75)!important; width:150px!important; overflow:hidden; left:50%; transform:translateX(-50%)!important; }
-  .winston-courage-quote{top: 40em;}
- .winston-courageous{background-position: -500px 0px !important;}
+  .winston-courage-quote{position:relative; display: flex; margin-left:0vw; transform:scale(.8)!important; max-width:60vw;}
+ //.winston-courageous{background-position: -500px 0px !important;}
  .center-col{max-width:100%!important;}
  .narrow-col p{font-size: 1.2em; line-height: 2em;}
  .slider-title-container {max-width:50vw!important; top:35vh;}
  //.slider-title2{line-height: .5em;}
 
  .visibilitize .video-container{background-size:100%!important; background-position:center 0vh !important; filter:grayscale(.5)!important; }
+
+/*/////////////////////////////////////////////////////////////////////
+BILLBOARDS
+/////////////////////////////////////////////////////////////////////*/
  .billboard-home{background:url(../img/billboards/Billboard-fade_home.jpg) no-repeat center top;}
 .billboard-about{background:url(../img/billboards/Billboard-fade_photo-session.jpg) no-repeat top;}
 .billboard-about2{background:url(../img/billboards/Billboard-fade_about.jpg) no-repeat top;}
 .billboard-about3{background:url(../img/billboards/Billboard-fade_me2.jpg) no-repeat top;}
 .billboard-connect{background:url(../img/billboards/Billboard-fade_me.jpg) no-repeat top;}
 
- .txt-scale{font-size: calc(64px + 20 * ( (100vw - 640px) / 420));}
+.billboard-right{background-position: right!important;}
+// .billboard-right2{background-position: right!important; float:right; right:-300px;}
+
+ //.txt-scale{font-size: calc(44px + 20 * ( (100vw - 640px) / 420)); padding:none; margin:none;}
+ .txt-scale{padding:none; margin:none;line-height:2px;}
+ .txt-scale-subtitle{font-size: calc(14px + 20 * ( (100vw - 380px) / 400)); padding:none; margin:none;}
+
  //.slider-title{font-size: 1.5em !important; max-width: 350px !important; word-break: break-word !important;}
  .cap .small{font-size:4em !important;}
  .cap #dropcap{font-size:4em !important; padding: 0px 5px 0px 5px !important;}
@@ -211,6 +229,8 @@ TABLET-PORTRAIT-UP
  .footer-left{padding-top:0em; margin-bottom:2em; height:2em;}
  .footer-center{height:4em; margin-top:2em; margin-bottom:2em;padding-top:5em;}
  .footer-right{height:8.5em; margin-top:5em;padding-top:5em;}
+
+ .slider-title-container {top:35vh;}
 }
 
 @media (orientation: landscape) and (max-width:768px) {

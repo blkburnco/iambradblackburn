@@ -1,0 +1,77 @@
+.slide-enter-active,
+.slide-leave-active
+{
+    transition: transform 0.5s ease;
+}
+
+.slide-enter,
+.slide-leave-to {
+    //Right menu
+    transform: translateX(100%);
+    transition: all 150ms ease-in 0s;
+}
+
+.sidebar-backdrop {
+    //background-color: rgba(15, 15, 15, 0.5);
+    //background: rgba(7, 14, 24, 0.4);
+    background: transparent;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0; //Right menu
+    cursor: pointer;
+}
+
+.sidebar-panel {
+    overflow-y: auto;
+    background-color: #282828;
+    //background: linear-gradient(45deg, rgba(40,40,40,0.95), rgba(95, 93, 77, 0.95)); 
+    background: linear-gradient(45deg, rgba(40,40,40,0.95), rgba(7, 14, 24, 0.95));
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    position: fixed;
+    top: 0;
+    right: 0; //Right menu
+    height: 100vh;
+    z-index: 999;
+    padding: 3rem 20px 2rem 20px;
+    width: 300px;
+} 
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0.8rem;
+  }
+
+  ul.sidebar-panel-nav {
+    list-style-type: none;
+  }
+
+  ul.sidebar-panel-nav > li > a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 2.5rem;
+    display: block;
+    padding-bottom: 0.5em;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+
+    &:hover {
+        color: gold;
+        text-decoration: underline;
+    }
+  }
+
+// todo fix this
+// .name {
+//     filter: blur(8px);
+//     -webkit-filter: blur(8px);
+//     opacity: 0;
+// }
+// .sidebar-panel::after {
+//     filter: blur(8px);
+// }
