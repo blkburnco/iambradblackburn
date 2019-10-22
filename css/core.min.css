@@ -9385,7 +9385,7 @@ body.boxed .header .header-inner {
 
 .header .logo-inner {
     overflow: hidden;
-    filter: sepia() saturate(8) hue-rotate(305deg);
+    /* filter: sepia() saturate(8) hue-rotate(305deg); */
 }
 
 .header .logo {
