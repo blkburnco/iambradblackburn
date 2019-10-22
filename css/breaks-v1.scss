@@ -85,6 +85,9 @@ TABLET-PORTRAIT-UP
 
   .slider-title-container{width: 90%; top:55vh;}
 
+  .visibilitize .video-container{background-size:cover; background-position:center 0vh; filter:grayscale(.5);}
+  .billboard-home{opacity:.7!important;}
+
   /*.open-content{position: absolute !important; top:25% !important; left:-10px !important; width:100% !important; margin-left:0px !important;}*/
   #open-content-text{width: 100% !important;}
   .footer-left{padding-top:5em; height:5.5em;}
@@ -180,16 +183,29 @@ TABLET-PORTRAIT-UP
 }
 
 @media (orientation:portrait) {
-  .logo {transform: scale(.75,.75)!important; left:-30px !important;}
+  .logo {transform: scale(.75,.75)!important; width:150px!important; overflow:hidden; left:50%; transform:translateX(-50%)!important; }
   .winston-courage-quote{top: 40em;}
  .winston-courageous{background-position: -500px 0px !important;}
  .center-col{max-width:100%!important;}
+ .narrow-col p{font-size: 1.2em; line-height: 2em;}
  .slider-title-container {max-width:50vw!important; top:35vh;}
  //.slider-title2{line-height: .5em;}
+
+ .visibilitize .video-container{background-size:100%!important; background-position:center 0vh !important; filter:grayscale(.5)!important; }
+ .billboard-home{background:url(../img/billboards/Billboard-fade_home.jpg) no-repeat center top;}
+.billboard-about{background:url(../img/billboards/Billboard-fade_photo-session.jpg) no-repeat top;}
+.billboard-about2{background:url(../img/billboards/Billboard-fade_about.jpg) no-repeat top;}
+.billboard-about3{background:url(../img/billboards/Billboard-fade_me2.jpg) no-repeat top;}
+.billboard-connect{background:url(../img/billboards/Billboard-fade_me.jpg) no-repeat top;}
+
  .txt-scale{font-size: calc(64px + 20 * ( (100vw - 640px) / 420));}
  //.slider-title{font-size: 1.5em !important; max-width: 350px !important; word-break: break-word !important;}
  .cap .small{font-size:4em !important;}
  .cap #dropcap{font-size:4em !important; padding: 0px 5px 0px 5px !important;}
+ #dropcap{width:100%!important; text-align:center;margin-bottom:50px;}
+ .secret-letter{visibility:visible;}
+ .hide-letter{visibility:hidden;}
+ //#dropcap:before{background:rgba(44,139,52,0.7)!important;display:block!important;}
 
  .open-content{left:-10px !important; width:100% !important; margin-left:0px !important;}
  .footer-left{padding-top:0em; margin-bottom:2em; height:2em;}

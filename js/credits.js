@@ -11,7 +11,7 @@ $(document).ready(function(){
 	};
 
   $(window).on('resize scroll', function() {
-    $('#section1').each(function() {
+    $('#section4').each(function() {
 			
         var scroller = $("#credits");
         // var movement = scroller.css({"margin-top": "-2500px", "transition-property": "margin-top", "transition-duration": "60s", "transition-timing-function": "linear", "transition-delay": "1s"});
@@ -25,7 +25,7 @@ $(document).ready(function(){
         // var closing = goodnight.css({"height": "0vh", "transition-property": "height", "transition-duration": "3s", "transition-timing-function": "easeIn", "transition-delay": "4s"});
         
       
-      if ($('#section1').isInViewport()) {
+      if ($('#section4').isInViewport()) {
       
           /* function initShop(){
             micdDrop.animate({initOpen});

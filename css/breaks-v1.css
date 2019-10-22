@@ -92,6 +92,15 @@ TABLET-PORTRAIT-UP
     width: 90%;
     top: 55vh;
   }
+  .visibilitize .video-container {
+    background-size: cover;
+    background-position: center 0vh;
+    -webkit-filter: grayscale(0.5);
+            filter: grayscale(0.5);
+  }
+  .billboard-home {
+    opacity: 0.7 !important;
+  }
   /*.open-content{position: absolute !important; top:25% !important; left:-10px !important; width:100% !important; margin-left:0px !important;}*/
   #open-content-text {
     width: 100% !important;
@@ -146,7 +155,11 @@ TABLET-PORTRAIT-UP
   .logo {
     -webkit-transform: scale(0.75, 0.75) !important;
             transform: scale(0.75, 0.75) !important;
-    left: -30px !important;
+    width: 150px !important;
+    overflow: hidden;
+    left: 50%;
+    -webkit-transform: translateX(-50%) !important;
+            transform: translateX(-50%) !important;
   }
   .winston-courage-quote {
     top: 40em;
@@ -157,9 +170,34 @@ TABLET-PORTRAIT-UP
   .center-col {
     max-width: 100% !important;
   }
+  .narrow-col p {
+    font-size: 1.2em;
+    line-height: 2em;
+  }
   .slider-title-container {
     max-width: 50vw !important;
     top: 35vh;
+  }
+  .visibilitize .video-container {
+    background-size: 100% !important;
+    background-position: center 0vh !important;
+    -webkit-filter: grayscale(0.5) !important;
+            filter: grayscale(0.5) !important;
+  }
+  .billboard-home {
+    background: url(../img/billboards/Billboard-fade_home.jpg) no-repeat center top;
+  }
+  .billboard-about {
+    background: url(../img/billboards/Billboard-fade_photo-session.jpg) no-repeat top;
+  }
+  .billboard-about2 {
+    background: url(../img/billboards/Billboard-fade_about.jpg) no-repeat top;
+  }
+  .billboard-about3 {
+    background: url(../img/billboards/Billboard-fade_me2.jpg) no-repeat top;
+  }
+  .billboard-connect {
+    background: url(../img/billboards/Billboard-fade_me.jpg) no-repeat top;
   }
   .txt-scale {
     font-size: calc(64px + 20 * ( (100vw - 640px) / 420));
@@ -170,6 +208,17 @@ TABLET-PORTRAIT-UP
   .cap #dropcap {
     font-size: 4em !important;
     padding: 0px 5px 0px 5px !important;
+  }
+  #dropcap {
+    width: 100% !important;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .secret-letter {
+    visibility: visible;
+  }
+  .hide-letter {
+    visibility: hidden;
   }
   .open-content {
     left: -10px !important;
