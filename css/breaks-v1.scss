@@ -93,6 +93,7 @@ TABLET-PORTRAIT-UP
   /////////////////////////////////////////////////////////////////////*/
   //.BG-strategy{background-position:center;}
   // .BG-animation{background-position:60vw center;}
+  // .BG-Animation{background-position:center; height: 400px; width:100%; background-attachment:scroll;}
 
   /*.open-content{position: absolute !important; top:25% !important; left:-10px !important; width:100% !important; margin-left:0px !important;}*/
   #open-content-text{width: 100% !important;}
@@ -209,6 +210,7 @@ BILLBOARDS
 .billboard-about2{background:url(../img/billboards/Billboard-fade_about.jpg) no-repeat top;}
 .billboard-about3{background:url(../img/billboards/Billboard-fade_me2.jpg) no-repeat top;}
 .billboard-connect{background:url(../img/billboards/Billboard-fade_me.jpg) no-repeat top;}
+
 
 .billboard-right{background-position: right!important;}
 // .billboard-right2{background-position: right!important; float:right; right:-300px;}

@@ -211,9 +211,9 @@ BG
 /*.about-me-photo{background: url(../img/billboards/IMG_8878.gif) no-repeat; background-size:contain; background-position:left; position:absolute; bottom:0vh; width: 77vw; height: 90vh; z-index: 3; display: block; opacity:1; float: left; left:0px !important;}*/
 .about-me-bg{background:#091423 url(../img/billboards/fine-drawing_bw.jpg) no-repeat; background-size:cover; background-position:right; position:relative; float:right; top:-110vh; width: 120%; height: 120%; z-index: -1; display: block; opacity:.5;}
 .about-me-video-bg{background:#091423; background-size:cover; background-position:right; position:relative;  float:right; top:-110vh; width: 120%; height: 120%; z-index: -1; display: block; opacity: 0;}
-.BG-strategy{background:purple url(../img/BG-strategy-hover2.jpg) no-repeat; background-size:cover; background-position:center; background-attachment: fixed; height: 100%; display:block;}
-.BG-animation{background:purple url(../(pages/projects/optimus/img/optimus.gif) no-repeat; background-size:cover; background-position:center; background-attachment: fixed; height: 100%; display:block;}
-
+.BG-strategy{background:url(../img/BG-strategy-hover2.jpg) no-repeat; background-size:cover; background-position:center; background-attachment: fixed; height: 100%; display:block;}
+.BG-Animation{background:url(../pages/projects/optimus/img/optimus.gif) no-repeat; background-size:cover!important; background-position:center; background-attachment: scroll; height: 400px; width:auto; display:block;}
+/* style="background: url(pages/projects/optimus/img/optimus.gif) no-repeat; background-size:cover; background-position:70%; background-attachment: fixed; height: 100%;" */
 
 /*/////////////////////////////////////////////////////////////////////
 TESTIMONIES
