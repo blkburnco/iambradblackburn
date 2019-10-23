@@ -181,6 +181,10 @@ TABLET-PORTRAIT-UP
             transform: scale(0.5) !important;
     max-width: 60vw;
   }
+  .Artistic-Inspiration {
+    visibility: hidden;
+    display: none;
+  }
 }
 
 /* stylus-based screens */
@@ -228,6 +232,10 @@ TABLET-PORTRAIT-UP
     -webkit-transform: scale(0.5) !important;
             transform: scale(0.5) !important;
     max-width: 60vw;
+  }
+  .Artistic-Inspiration {
+    visibility: hidden;
+    display: none;
   }
 }
 
