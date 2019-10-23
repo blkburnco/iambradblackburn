@@ -123,6 +123,26 @@ TABLET-PORTRAIT-UP
   }
 }
 
+/* smartphones, touchscreens */
+@media (hover: none) and (pointer: coarse) {
+  .BG-Animation {
+    background-position: center;
+    height: 400px;
+    width: 100%;
+    background-attachment: scroll;
+  }
+}
+
+/* stylus-based screens */
+@media (hover: none) and (pointer: fine) {
+  .BG-Animation {
+    background-position: center;
+    height: 400px;
+    width: 100%;
+    background-attachment: scroll;
+  }
+}
+
 @media only screen and (max-width: 960px) {
   /*.aux-navigation{position: relative !important; float:right !important; right: 0px !important; top: -100px !important;}*/
 }
