@@ -31,7 +31,7 @@ $(document).ready(function(){
             micdDrop.animate({initOpen});
           }  */
 
-          var movement = scroller.css({"margin-top": "-3000px", "transition-property": "margin-top", "transition-duration": "60s", "transition-timing-function": "linear", "transition-delay": "2s"});
+          var movement = scroller.css({"margin-top": "-3000px", "transition-property": "margin-top", "transition-duration": "60s", "transition-timing-function": "linear", "transition-delay": "1s"});
           var goodnight = $('#creds');
           var closing = goodnight.css({"padding":"0", "transition-property":"padding", "height": "0vh", "transition-property": "height", "transition-duration": "3s", "transition-timing-function": "easeIn", "transition-delay": "36s"});
 

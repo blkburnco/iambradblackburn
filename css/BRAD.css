@@ -3,7 +3,7 @@
     src: url(../fonts/steelfish_rg.otf);
 }*/
 
-@font-face {
+/* @font-face {
     font-family: 'Steelfish';
     src:url('../fonts/webfonts_Steelfish/Steelfish.ttf.woff') format('woff'),
         url(../fonts/webfonts_Steelfish/'Steelfish.ttf.svg') format('svg'),
@@ -11,14 +11,24 @@
         url('../fonts/webfonts_Steelfish/Steelfish.ttf.eot?#iefix') format('embedded-opentype'); 
     font-weight: normal;
     font-style: normal;
-}
+} */
 
 @font-face {
+  font-family: 'Steelfish';
+  src:url('../fonts/webfonts_Steelfish/Steelfish.ttf.woff') format('woff'),
+      url('../fonts/webfonts_Steelfish/Steelfish.ttf.svg#Steelfish') format('svg'),
+      url('../fonts/webfonts_Steelfish/Steelfish.ttf.eot'),
+      url('../fonts/webfonts_Steelfish/Steelfish.ttf.eot?#iefix') format('embedded-opentype'); 
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* @font-face {
   font-family: 'AdamCG';
   src: url('../fonts/adam-cg-pro/ADAMCG-PRO.ttf');
   font-weight: normal;
   font-style: normal;
-}
+} */
 
 @font-face {
   font-family: 'Arca';
@@ -86,15 +96,15 @@ section{background-color:black !important;}
   content: attr(data-text);
   left: 0;
   position: absolute;
-  text-shadow: 0px 20px 4px rgba(0, 0, 0, 0.5);
-  top: 0;
+  text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  top: 35%;
   z-index: -1;
 }
-
-section{overflow: scroll;position:relative;}
-.scrolly{scroll-snap-align: start!important;scroll-snap-stop: normal!important;scroll-behavior: smooth;}
+section{position:relative;}
+/* section{overflow: scroll;position:relative;} */
+/* .scrolly{scroll-snap-align: start!important;scroll-snap-stop: normal!important;scroll-behavior: smooth;}
 .y-mandatory {scroll-snap-type: y mandatory!important;scroll-behavior: smooth;}
-.y-proximity {scroll-snap-type: y proximity!important;}
+.y-proximity {scroll-snap-type: y proximity!important;} */
 
 .section-title{font-family: 'Alfa Slab One', serif; font-weight: 900; font-size: 3em; line-height: 1.1em; color: white; text-transform: uppercase; font-variant: small-caps; text-align: left;}
 .header-title{/*word-wrap: break-word;*/line-height: 1.25em;text-align: left; color: #fff; /*font-family: 'Alfa Slab One', serif;*/ font-weight: 900;/*font-style: oblique;*/font-size:2.5em;/*font-size:1.5em;*/text-transform:uppercase;text-align: center;letter-spacing: 5px;}
@@ -116,8 +126,8 @@ section{overflow: scroll;position:relative;}
 .bg-lt-grey{background-color:#efefef !important;}
 .bg-indigo{background-color: #091423 !important;}
 .bg-indigo-transparent{background-color: rgba(9,20,35,.8);}
-.bg-gold{background-color: #a18d55 !important;}
-.bg-gold:hover{background-color:grey !important;}
+.bg-gold{background-color: #D4C2A2!important;}
+.bg-gold:hover{background-color:#937B5D !important;transition-duration: .5s;}
 .bg-orange{background-color:white; color:grey;}
 .bg-orange:hover{background-color: #ea9217 !important; color:white; transition-duration: .5s;}
 .bg-red{background-color:#FB614B !important;}
@@ -137,7 +147,7 @@ section{overflow: scroll;position:relative;}
 .txt-right{text-align: right;}
 .txt-center{text-align: center;}
 
-/* .txt-scale{font-size: calc(64px + 20 * ( (100vw - 640px) / 420));} */
+.txt-scale{font-size: calc(64px + 20 * ( (100vw - 640px) / 420)); line-height:.5em;}
 
 .txt-grey{color:grey;}
 .txt-crimson{font-family: Crimson Text; font-style: italic; font-size: 3em;}
@@ -159,8 +169,8 @@ section{overflow: scroll;position:relative;}
 .color-hover-grey{font-family: 'Montserrat' !important; font-weight:400; background-color: #35362F; border: none;}
 .color-hover-grey:hover{background-color: grey; color: white;}
 
-.winston-courageous{background: url(../img/billboards/billboard_fall_street.jpg); background-size: cover !important; background-position: right; padding: 0px 50px 0px 50px;}
-.winston-courage-quote{padding-bottom: 0em; padding-top:50em;}
+/* .winston-courageous{background: url(../img/billboards/billboard_fall_street.jpg); background-size: cover !important; background-position: right; padding: 0px 50px 0px 50px;} */
+.winston-courage-quote{position:relative; display:block; float:left; margin-left:50vw; top:50vh; transform:translateX(-50%)!important;}
 .percent-75{width: 75%;}
 
 .fullView{width: 100vw !important; height:800px; overflow:visible; display:block;}
@@ -172,6 +182,9 @@ section{overflow: scroll;position:relative;}
 
 .credit-list{color: #dedede; font-family: 'Crimson Text'; font-size: 1.8em; line-height: 2em; text-align: center; padding:2em; list-style-image: none;}
 .credit-title{ color:white; font-size:1.5em; font-weight:bolder; margin-top:2em; font-family: 'Steelfish'; text-decoration: underline; letter-spacing: 0px; text-transform: uppercase;}
+.skill-list{display:inline-block; margin-left:0px;}
+.skill-list li{display:inline-block; text-align:center; padding:20px;}
+/* display: inline-block;padding-right:50px; */
 
 .project-title{font-family:Steelfish !important; font-weight:900 !important; font-size:3em; color:white;}
 
@@ -186,6 +199,26 @@ BILLBOARDS
 .billboard-about3{background:url(../img/billboards/IMG_8878.jpg) no-repeat top;}
 .billboard-connect{background:url(../img/billboards/billboard_BW_Headshot.jpg) no-repeat top;}
 
+.billboard-twain{background:url(../img/mark-twain-color.jpg) no-repeat center top; background-blend-mode:luminosity; background-size: cover;}
+.billboard-churchill{background:url(../img/winston-courage.jpg) no-repeat center top; background-blend-mode:luminosity; background-size: cover;}
+.billboard-lewis{background:url(../img/cslewis.png) no-repeat center top; background-blend-mode:luminosity; background-size: cover;}
+.billboard-rogers{background:url(../img/mr-rogers_bw.jpg) no-repeat center top; background-blend-mode:luminosity; background-size: cover;}
+
+
+/*/////////////////////////////////////////////////////////////////////
+BG
+/////////////////////////////////////////////////////////////////////*/
+/*.about-me-photo{background: url(../img/billboards/IMG_8878.gif) no-repeat; background-size:contain; background-position:left; position:absolute; bottom:0vh; width: 77vw; height: 90vh; z-index: 3; display: block; opacity:1; float: left; left:0px !important;}*/
+.about-me-bg{background:#091423 url(../img/billboards/fine-drawing_bw.jpg) no-repeat; background-size:cover; background-position:right; position:relative; float:right; top:-110vh; width: 120%; height: 120%; z-index: -1; display: block; opacity:.5;}
+.about-me-video-bg{background:#091423; background-size:cover; background-position:right; position:relative;  float:right; top:-110vh; width: 120%; height: 120%; z-index: -1; display: block; opacity: 0;}
+.BG-Animation{background:url(../pages/projects/optimus/img/optimus.gif) no-repeat; background-size:cover!important; background-position:center; background-attachment: scroll; height: 100%; width:auto; display:block;}
+.BG-Branding{background:url(../img/BG-branding-hover2.jpg) no-repeat; background-size:cover!important; background-position:right; background-attachment: scroll; height: 100%; width:auto; display:block;}
+.BG-UI{background:url(../img/BG-ui.jpg) no-repeat; background-size:cover!important; background-position:center!important; background-attachment: scroll; height: 100%; width:auto; display:block;}
+/* .BG-UI{background:url(../pages/projects/optimus/img/optimus.gif) no-repeat; background-size:cover!important; background-position:-800px!important; background-attachment: scroll; height: 100%; width:auto; display:block;} */
+.BG-Strategy{background:url(../img/BG-strategy-hover2.jpg) no-repeat; background-size:cover!important; background-position:right; background-attachment: scroll; height: 100%; width:auto; display:block;}
+
+.BG-Credits{background: url(../img/BG-us2.jpg) no-repeat center center; background-size:cover!important; background-attachment: fixed; height: 100%; width:auto; display:block;}
+/* style="background: url(pages/projects/optimus/img/optimus.gif) no-repeat; background-size:cover; background-position:70%; background-attachment: fixed; height: 100%;" */
 
 /*/////////////////////////////////////////////////////////////////////
 TESTIMONIES
@@ -222,9 +255,6 @@ TESTIMONIES
 
 /*.vertical-middle{top:30%; transform:translateY(-50%); position: relative; display: block;}*/
 
-/*.about-me-photo{background: url(../img/billboards/IMG_8878.gif) no-repeat; background-size:contain; background-position:left; position:absolute; bottom:0vh; width: 77vw; height: 90vh; z-index: 3; display: block; opacity:1; float: left; left:0px !important;}*/
-.about-me-bg{background:#091423 url(../img/billboards/fine-drawing_bw.jpg) no-repeat; background-size:cover; background-position:right; position:relative; float:right; top:-110vh; width: 120%; height: 120%; z-index: -1; display: block; opacity:.5;}
-.about-me-video-bg{background:#091423; background-size:cover; background-position:right; position:relative;  float:right; top:-110vh; width: 120%; height: 120%; z-index: -1; display: block; opacity: 0;}
 
 
 

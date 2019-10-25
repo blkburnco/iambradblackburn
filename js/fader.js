@@ -22,8 +22,8 @@ $(document).ready(function(){
 
 
       if ($('#section1').isInViewport()) {
-          var movement0 = fader0.css({"z-index": "-20", "transition-property": "z-index", "opacity":"0", "transition-property":"opacity", "transition-duration": "2s", "transition-timing-function": "linear", "transition-delay": "5s"});
-          var movement0b = fader0b.css({"z-index":"100", "transition-property":"z-index", "opacity": "1", "transition-property": "opacity", "transition-duration": "2s", "transition-timing-function": "linear", "transition-delay": "2s"});  
+          var movement0 = fader0.css({"z-index": "-20", "transition-property": "z-index", "opacity":"0", "transition-property":"opacity", "transition-duration": "1s", "transition-timing-function": "linear", "transition-delay": "0s"});
+          var movement0b = fader0b.css({"z-index":"100", "transition-property":"z-index", "opacity": "1", "transition-property": "opacity", "transition-duration": "1s", "transition-timing-function": "linear", "transition-delay": "1s"});  
           var movement0s = fader0s.css({"opacity":"0", "transition-property":"opacity", "transition-duration":"1s", "transition-delay":"0s"});
            function creditRoll(){
             fader0.animate({movement0});
