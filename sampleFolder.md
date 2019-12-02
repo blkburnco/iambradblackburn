@@ -3,6 +3,7 @@
 
 _The following is my sample file structure output. Please see notes for even more details. Feel free to click on associated links to folders_
 
+```
 Example Jekyll Theme folder/
 ├── [CNAME](https://iambradblackburn.com/cname.txt)
 ├── LICENSE.txt
@@ -30,5 +31,7 @@ Example Jekyll Theme folder/
 │   ├── head.html
 │   └── scripts.html
 ├── etc.
+```
+
 
 > More sample notes for the reader
