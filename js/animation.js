@@ -22,7 +22,7 @@ function scrollNav() {
     //Animate
     $('html, body').stop().animate({
         scrollTop: $( $(this).attr('href') ).offset().top - 0
-    }, 2000);
+    }, 1000);
     return false;
   });
   $('.scrollTop a').scrollTop();

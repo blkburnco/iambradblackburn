@@ -93,6 +93,10 @@ TABLET-PORTRAIT-UP
   /////////////////////////////////////////////////////////////////////*/
   //.BG-strategy{background-position:center;}
   // .BG-animation{background-position:60vw center;}
+  .BG-Animation{background-position:-90vw center;}
+  .BG-Branding{background-position:0vw center;}
+  .BG-UI{background-position:-90vw center;}
+  .BG-Strategy{background-position:center center;}
 
   /*.open-content{position: absolute !important; top:25% !important; left:-10px !important; width:100% !important; margin-left:0px !important;}*/
   #open-content-text{width: 100% !important;}
@@ -101,6 +105,36 @@ TABLET-PORTRAIT-UP
   .footer-right{height:8.5em; padding-top:5em;}
   .txt-scale{font-size: calc(64px + 20 * ( (100vw - 640px) / 420)); line-height:0.8em;}
   
+}
+
+/* smartphones, touchscreens */
+@media (hover: none) and (pointer: coarse) {
+  .BG-Animation{background-position:center; height: 400px; width:100%; background-attachment:scroll;}
+  .BG-Branding{background-position:center; height: 400px; width:100%; background-attachment:scroll;}
+  .BG-UI{background-position:center; height: 400px; width:100%; background-attachment:scroll;}
+  .BG-Strategy{background-position:center; height: 400px; width:100%; background-attachment:scroll;}
+  .billboard-twain{background-size: contain;}
+  .billboard-churchill{background-size: contain;}
+  .billboard-lewis{background-size: contain;}
+  .billboard-rogers{background-size: contain;}
+  .winston-courage-quote{position:relative; display: block; margin-left:0vw; transform:scale(.5)!important; max-width:60vw;}
+  .Artistic-Inspiration{visibility:hidden; display:none;}
+  .credits{transform:scale(80%)!important;}
+
+}
+/* stylus-based screens */
+@media (hover: none) and (pointer: fine) {
+  .BG-Animation{background-position:center; height: 400px; width:100%; background-attachment:scroll;}
+  .BG-Branding{background-position:center; height: 400px; width:100%; background-attachment:scroll;}
+  .BG-UI{background-position:center; height: 400px; width:100%; background-attachment:scroll;}
+  .BG-Strategy{background-position:center; height: 400px; width:100%; background-attachment:scroll;}
+  .billboard-twain{background-size: contain;}
+  .billboard-churchill{background-size: contain;}
+  .billboard-lewis{background-size: contain;}
+  .billboard-rogers{background-size: contain;}
+  .winston-courage-quote{position:relative; display: block; margin-left:0vw; transform:scale(.5)!important; max-width:60vw;}
+  .Artistic-Inspiration{visibility:hidden; display:none;}
+  .credits{transform:scale(80%)!important;}
 }
 
 @media only screen and (max-width: 960px) {
@@ -210,6 +244,7 @@ BILLBOARDS
 .billboard-about3{background:url(../img/billboards/Billboard-fade_me2.jpg) no-repeat top;}
 .billboard-connect{background:url(../img/billboards/Billboard-fade_me.jpg) no-repeat top;}
 
+
 .billboard-right{background-position: right!important;}
 // .billboard-right2{background-position: right!important; float:right; right:-300px;}
 
@@ -231,6 +266,8 @@ BILLBOARDS
  .footer-right{height:8.5em; margin-top:5em;padding-top:5em;}
 
  .slider-title-container {top:35vh;}
+ .Artistic-Inspiration{visibility:hidden; display:none;}
+.credits{font-size: calc(14px + 20 * ( (100vw - 380px) / 400))!important;}
 }
 
 @media (orientation: landscape) and (max-width:768px) {
